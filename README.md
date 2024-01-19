@@ -1,9 +1,9 @@
 
-![# pgEdge Community Lab](img/community-lab-banner.png)
+![# pgEdge Community Lab](img/pgedge-lab-banner.png)
 
 We build our enterprise-class, secure and statically linked binaries on Rocky Linux 8 & 9 for *x86_64* & and on Rocky Linux 9 for *arm64*.   Our binaries run nicely on bare metal, vm's, containers or a localhost sandbox on your laptop.  We are tested to run on EL8, EL9, SLES-15, AWS Linux 2023, and Ubuntu 22.04.
 
-# To install our Latest 24.1.x CLI:
+# To install our Latest 24.x CLI:
 
 ```
 python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install24.py)
