@@ -9,7 +9,7 @@ We build our enterprise-class, secure and statically linked binaries on Rocky Li
 # To install our Latest 24.x Lab CLI:
 
 ```
-python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install24.py)
+python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.py)"
 ```
 
 [Useful Notes](#useful-notes)<br>
