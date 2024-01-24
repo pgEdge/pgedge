@@ -23,7 +23,7 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
 
 - configure [password-less sudo](https://blog.pgedge.org/index.php/2023/04/07/passwordless-sudo/) for easier testing of advanced commands
 
-- set up [password-less ssh to localhost](https://blog.pgedge.org/index.php/2023/06/07/passwordless-ssh-to-localhost-2) for using `cluster localhost` commands
+- set up [password-less ssh to localhost](https://blog.pgedge.org/index.php/2023/06/07/passwordless-ssh-to-localhost-2) for using `cluster localhost-create` commands
 
 - Tested with Python 3.9+ 
   - Python 3.9 on EL8, EL9, SLE-15, & Amazon Linux 2023
@@ -31,11 +31,9 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
   - Python 3.11 on Ubuntu 23.10
   - Python 3.12 on Fedora 39
 
-- Learn about running [pgEdge Platform](https://www.pgedge.com/products/pgedge-platform) in production and/or for professional grade support
+- Denis' [Linux Cheatsheet](http://lussier.io)
 
-- Denis' [Linux Cheatsheet](https://blog.pgedge.org)
-
-- pgedge [Community License](https://www.pgedge.com/communitylicense>pgEdge Community License 1.0)
+- pgEdge [Community License](https://www.pgedge.com/communitylicense)
 
 
 
@@ -43,38 +41,38 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
 
 Sandbox with latest *Postgres 16*, *Spock* & *Snowflake* installed into default *postgres* db<br>
 ```
-./ctl install pg16 --start : install spock : install snowflake
+./pgedge install pg16 --start : install spock : install snowflake
 ```
 
 Create db *db1* owned by *denis* installing & configuring *pgedge* core components (*Spock* & *Snowflake*) into *pg16*
 
 ```
-./ctl install pgedge -U denis -P secret -d db1 --pg 16
+./pgedge install pgedge -U denis -P secret -d db1 --pg 16
 ```
 
 
 Create a cluster *cl1* on localhost with two nodes, then install *northwind sample app* on *cl1* cluster
 
 ```
-./ctl cluster localhost-create cl1 2 : cluster app-install cl1 northwind
+./pgedge cluster localhost-create cl1 2 : cluster app-install cl1 northwind
 ```
 
 Create cluster *clc* in docker compose with three nodes (*Coming Soon!*)
 ```
-./ctl cluster container-create clc 3 : cluster app-install clc pgbench
+./pgedge cluster container-create clc 3 : cluster app-install clc pgbench
 ```
 
-Authenticate withe pgEdge Cloud credentials, then list your clusters
+Authenticate with pgEdge Cloud credentials, then list your clusters
 ```
-./ctl secure login : secure cluster-list
+./pgedge cloud login : cloud cluster-list
 ```
 
 Create virtual machine *n1* on **AWS** and virtual machine *n2* on **Equinix Metal**
 ```
-./ctl machine create aws n1 : machine create eqnx n2
+./pgedge multicloud node-create aws n1 : multicloud node-create eqnx n2
 ```
 
 Create a multi-cloud cluster *mach1* (**Coming Soon!**)
 ```
-./ctl machine cluster-create mach1 aws-n1 eqnx-n2
+./pgedge multicloud cluster-create mach1 aws-n1 eqnx-n2
 ```
