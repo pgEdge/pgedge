@@ -14,10 +14,10 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
 
 [Useful Notes](#useful-notes)<br>
 [Usage Samples](#usage-samples)<br>
-[CLI Documentation](https://github.com/pgedge/nodectl/blob/REL24_STABLE/cli/README.md)
+[CLI Documentation](https://github.com/pgedge/cli/blob/REL24_STABLE/cli/README.md)
 
 # Useful Notes:
-- Interested in our [CHANGELOG](https://github.com/pgEdge/nodectl/blob/REL24_STABLE/CHANGELOG.md)
+- Interested in our [CHANGELOG](https://github.com/pgEdge/cli/blob/REL24_STABLE/CHANGELOG.md)
 
 - Install as a non-root user from your `$HOME` directory
 
