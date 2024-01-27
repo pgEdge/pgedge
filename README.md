@@ -6,7 +6,7 @@ We build our enterprise-class, secure and statically linked binaries on Rocky Li
 # To install Production ready release:
 [pgEdge Platform Download](https://www.pgedge.com/download)
 
-# To install our Latest 24.x Lab CLI:
+# To install our Latest 24.1.x Developers Lab CLI:
 
 ```
 python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.py)"
@@ -14,10 +14,10 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
 
 [Useful Notes](#useful-notes)<br>
 [Usage Samples](#usage-samples)<br>
-[CLI Documentation](https://github.com/pgedge/cli/blob/REL24_STABLE/cli/README.md)
+[CLI Documentation](https://github.com/pgedge/cli/blob/REL24_1/cli/README.md)
 
 # Useful Notes:
-- Interested in our [CHANGELOG](https://github.com/pgEdge/cli/blob/REL24_STABLE/CHANGELOG.md)
+- Interested in our [CHANGELOG](https://github.com/pgEdge/cli/blob/REL24_1/CHANGELOG.md)
 
 - Install as a non-root user from your `$HOME` directory
 
