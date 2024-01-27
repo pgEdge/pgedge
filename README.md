@@ -57,7 +57,7 @@ Create a cluster *cl1* on localhost with two nodes, then install *northwind samp
 ./pgedge cluster localhost-create cl1 2 : cluster app-install cl1 northwind
 ```
 
-Create cluster *clc* in docker compose with three nodes (*Coming Soon!*)
+Create cluster *clc* in docker compose with three nodes (**Coming Soon!**)
 ```
 ./pgedge cluster container-create clc 3 : cluster app-install clc pgbench
 ```
@@ -67,12 +67,12 @@ Authenticate with pgEdge Cloud credentials, then list your clusters
 ./pgedge cloud login : cloud cluster-list
 ```
 
-Create virtual machine *n1* on **AWS** and virtual machine *n2* on **Equinix Metal**
+Create virtual machine *n1* on **AWS** in Northen Virginia and virtual machine *n2* on **Equinix Metal** in Dallas
 ```
-./pgedge multicloud node-create aws n1 : multicloud node-create eqnx n2
+./pgedge multicloud node-create aws iad n1 : multicloud node-create eqnx dfw n2
 ```
 
 Create a multi-cloud cluster *mach1* (**Coming Soon!**)
 ```
-./pgedge multicloud cluster-create mach1 aws-n1 eqnx-n2
+./pgedge multicloud cluster-create mach1 "aws:iad:n1, eqnx:dfw:n2"
 ```
