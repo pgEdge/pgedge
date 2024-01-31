@@ -28,8 +28,8 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
 - Tested with Python 3.9+ 
   - Python 3.9 on EL8, EL9, SLE-15, & Amazon Linux 2023
   - Python 3.10 on Ubuntu 22.04
-  - Python 3.11 on Ubuntu 23.10
-  - Python 3.12 on Fedora 39
+  - Python 3.11 on Ubuntu 23.10 (experimental)
+  - Python 3.12 on Fedora 39 (experimental)
 
 - Denis' [Linux Cheatsheet](http://lussier.io)
 
