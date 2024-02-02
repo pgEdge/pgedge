@@ -1,7 +1,10 @@
 
 ![# pgEdge Distributed Postgres](img/pgedge-dp-banner.png)
 
-We build our enterprise-class, secure and statically linked binaries on Rocky Linux 8 & 9 for *x86_64* & and on Rocky Linux 9 for *arm64*.   Our binaries run nicely on bare metal, vm's, containers or a localhost sandbox on your laptop.  We are tested to run on EL8, EL9, SLES-15, AWS Linux 2023, and Ubuntu 22.04.
+Our Linux binaries run nicely on bare metal, vm's, & containers.  
+
+If you like our stuff, please give us a Github STAR on this repo in the upper right hand corner.
+<img width=75 src=img/github-star.png>
 
 ## To install production ready releases:
 ### [Try pgEdge Platform for Free](https://www.pgedge.com/get-started/platform)
@@ -15,7 +18,8 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
 <details>
 <summary>Getting Started</summary>
 
-- [2 node cluster](https://github.com/pgEdge/cli/blob/REL24_1/cli/GETTING-STARTED.md)
+- [2 node cluster](https://github.com/pgEdge/cli/blob/REL24_1/cli/GETTING-STARTED.md) on self provisioned VM's or bare-metal
+- [Container](https://github.com/pgEdge/pgedge-docker/blob/main/README.md) strategy and examples
 </details>
 
 <details>
