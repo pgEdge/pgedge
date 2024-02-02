@@ -1,15 +1,16 @@
 
 ![# pgEdge Distributed Postgres](img/pgedge-dp-banner.png)
 
-Our Linux binaries run nicely on bare metal, vm's, & containers.  
+Our Distributed Postgres runs nicely on bare metal, vm's, & containers, but...  perhaps you are asking yourself, "[What is pgEdge?](https://www.pgedge.com/products/what-is-pgedge)"
 
 If you like our stuff, please give us a Github STAR on this repo in the upper right hand corner.
 <img width=75 src=img/github-star.png>
 
-## To install production ready releases:
-### [Try pgEdge Platform for Free](https://www.pgedge.com/get-started/platform)
+# To install production ready software:
+- Try [pgEdge Platform](https://www.pgedge.com/get-started/platform) for free to host and manage a pgEdge cluster yourself (and get enterpise-class development & production support)
+- Signup up for our free [Cloud Developer Edition](https://www.pgedge.com/get-started/cloud) and be running a global managed cluster in < 90s (and get a free t-shirt)
 
-## To install our latest developers CLI & binaries:
+# To install our latest developers CLI & binaries:
 
 ```
 python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.py)"
@@ -52,8 +53,6 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
   - Python 3.10 on Ubuntu 22.04
   - Python 3.11 on Ubuntu 23.10 (experimental)
   - Python 3.12 on Fedora 39 (experimental)
-
-- Denis' [Linux Cheatsheet](http://lussier.io)
 
 - pgEdge [Community License](https://www.pgedge.com/communitylicense)
 </details>
