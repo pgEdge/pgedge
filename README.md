@@ -13,18 +13,24 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
 ```
 
 <details>
+<summary>Getting Started</summary>
+
+- [2 node cluster](https://github.com/pgEdge/cli/blob/REL24_1/cli/GETTING-STARTED.md)
+</details>
+
+<details>
 <summary>CLI Documentation</summary>
 
-- [Spock](https://github.com/pgEdge/cli/blob/REL24_1/cli/SPOCK-README.md) - CLI for Spock Logical and Multi-Master PostgreSQL node configuration
-- [Cloud](https://github.com/pgEdge/cli/blob/REL24_1/cli/CLOUD-README.md)
-- [Cluster](https://github.com/pgEdge/cli/blob/REL24_1/cli/CLUSTER-README.md)
-- [Multicloud](https://github.com/pgEdge/cli/blob/REL24_1/cli/MULTICLOUD-README.md)
-- [Ace](https://github.com/pgEdge/cli/blob/REL24_1/cli/ACE-README.md)
-- [db](https://github.com/pgEdge/cli/blob/REL24_1/cli/DB-README.md)
-- [um](https://github.com/pgEdge/cli/blob/REL24_1/cli/UM-README.md)
-- [service](https://github.com/pgEdge/cli/blob/REL24_1/cli/SERVICE-README.md)
-
+- [spock](https://github.com/pgEdge/cli/blob/REL24_1/cli/SPOCK-README.md) - Multi-Master Postgres node configuration
+- [cloud](https://github.com/pgEdge/cli/blob/REL24_1/cli/CLOUD-README.md) - Secure control you pgEdge Cloud clusters
+- [cluster](https://github.com/pgEdge/cli/blob/REL24_1/cli/CLUSTER-README.md) - Create and control a local cluster
+- [multicloud](https://github.com/pgEdge/cli/blob/REL24_1/cli/MULTICLOUD-README.md) - for rapidly assembling Multicloud test clusters
+- [ace](https://github.com/pgEdge/cli/blob/REL24_1/cli/ACE-README.md) - The **A**nti **C**haos **E**ngine helps to efficiently prove your remote tables are in sync
+- [db](https://github.com/pgEdge/cli/blob/REL24_1/cli/DB-README.md) - Configure and control Postgres db
+- [um](https://github.com/pgEdge/cli/blob/REL24_1/cli/UM-README.md) - Update Manager commands
+- [service](https://github.com/pgEdge/cli/blob/REL24_1/cli/SERVICE-README.md) - Service control commands
 </details>
+
 
 <details>
 <summary>Useful Notes</summary>
@@ -33,9 +39,9 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
 
 - Install as a non-root user from your `$HOME` directory
 
-- configure [password-less sudo](https://blog.pgedge.org/index.php/2023/04/07/passwordless-sudo/) for easier testing of advanced commands
+- configure [password-less sudo](http://lussier.io/index.php/2023/04/07/passwordless-sudo/) for easier testing of advanced commands
 
-- set up [password-less ssh to localhost](https://blog.pgedge.org/index.php/2023/06/07/passwordless-ssh-to-localhost-2) for using `cluster localhost-create` commands
+- set up [password-less ssh to localhost](http://lussier.io/index.php/2023/06/07/passwordless-ssh-to-localhost-2) for using `cluster localhost-create` commands
 
 - Tested with Python 3.9+ 
   - Python 3.9 on EL8, EL9, SLE-15, & Amazon Linux 2023
