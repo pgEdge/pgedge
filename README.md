@@ -12,11 +12,23 @@ We build our enterprise-class, secure and statically linked binaries on Rocky Li
 python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.py)"
 ```
 
-[Useful Notes](#useful-notes)<br>
-[Usage Samples](#usage-samples)<br>
-[CLI Documentation](https://github.com/pgedge/cli/blob/REL24_1/cli/README.md)
+<details>
+<summary>CLI Documentation</summary>
 
-# Useful Notes:
+- [Spock](https://github.com/pgEdge/cli/blob/REL24_1/cli/SPOCK-README.md) - CLI for Spock Logical and Multi-Master PostgreSQL node configuration
+- [Cloud](https://github.com/pgEdge/cli/blob/REL24_1/cli/CLOUD-README.md)
+- [Cluster](https://github.com/pgEdge/cli/blob/REL24_1/cli/CLUSTER-README.md)
+- [Multicloud](https://github.com/pgEdge/cli/blob/REL24_1/cli/MULTICLOUD-README.md)
+- [Ace](https://github.com/pgEdge/cli/blob/REL24_1/cli/ACE-README.md)
+- [db](https://github.com/pgEdge/cli/blob/REL24_1/cli/DB-README.md)
+- [um](https://github.com/pgEdge/cli/blob/REL24_1/cli/UM-README.md)
+- [service](https://github.com/pgEdge/cli/blob/REL24_1/cli/SERVICE-README.md)
+
+</details>
+
+<details>
+<summary>Useful Notes</summary>
+
 - Interested in our [CHANGELOG](https://github.com/pgEdge/cli/blob/REL24_1/CHANGELOG.md)
 
 - Install as a non-root user from your `$HOME` directory
@@ -34,10 +46,11 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
 - Denis' [Linux Cheatsheet](http://lussier.io)
 
 - pgEdge [Community License](https://www.pgedge.com/communitylicense)
+</details>
 
 
-
-# Usage Samples:
+<details>
+<summary>Usage Samples</summary>
 
 Sandbox with latest *Postgres 16*, *Spock* & *Snowflake* installed into default *postgres* db<br>
 ```
@@ -76,3 +89,4 @@ Create a multi-cloud cluster *mach1* (**Coming Soon!**)
 ```
 ./pgedge multicloud cluster-create mach1 "aws:iad:n1, eqnx:dfw:n2"
 ```
+</details>
