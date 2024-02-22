@@ -16,7 +16,8 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
 <summary>Getting Started</summary>
 
 - [2 node cluster](https://github.com/pgEdge/cli/blob/REL24_1/cli/GETTING-STARTED.md) on self provisioned VM's or bare-metal
-- [Container](https://github.com/pgEdge/pgedge-docker/blob/main/README.md) strategy and examples
+- [Container](https://github.com/pgEdge/pgedge-docker/blob/main/README.md) strategy and docker-compose examples
+- [Helm & Kubernetes](https://github.com/pgEdge/pgedge-helm/blob/main/examples/README.md) charts & examples
 </details>
 
 <details>
