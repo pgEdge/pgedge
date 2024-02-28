@@ -49,6 +49,7 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
   - Python 3.9 on EL8, EL9, SLE-15, & Amazon Linux 2023
   - Python 3.10 on Ubuntu 22.04
   - Python 3.11 on Ubuntu 23.10 (experimental)
+  - Python 3.11 on OSX arm64 (experimental)
   - Python 3.12 on Fedora 39 (experimental)
 
 - pgEdge [Community License](https://www.pgedge.com/communitylicense)
@@ -64,21 +65,13 @@ Sandbox with latest *Postgres 16*, *Spock* & *Snowflake* installed into default 
 ```
 
 Create db *db1* owned by *denis* installing & configuring *pgedge* core components (*Spock* & *Snowflake*) into *pg16*
-
 ```
-./pgedge install pgedge -U denis -P secret -d db1 --pg 16
+./pgedge setup -U denis -P secret -d db1 --pg 16
 ```
-
 
 Create a cluster *cl1* on localhost with two nodes, then install *northwind sample app* on *cl1* cluster
-
 ```
 ./pgedge cluster localhost-create cl1 2 : cluster app-install cl1 northwind
-```
-
-Create cluster *clc* in docker compose with three nodes (**Coming Soon!**)
-```
-./pgedge cluster container-create clc 3 : cluster app-install clc pgbench
 ```
 
 Authenticate with pgEdge Cloud credentials, then list your clusters
@@ -86,12 +79,12 @@ Authenticate with pgEdge Cloud credentials, then list your clusters
 ./pgedge cloud login : cloud cluster-list
 ```
 
-Create virtual machine *n1* on **AWS** in Northen Virginia and virtual machine *n2* on **Equinix Metal** in Dallas
+Create virtual machine (node) *n1* on **AWS** in Northen Virginia and *n2* on **Equinix Metal** in Dallas
 ```
 ./pgedge multicloud node-create aws iad n1 : multicloud node-create eqnx dfw n2
 ```
 
-Create a multi-cloud cluster *mach1* (**Coming Soon!**)
+Create a multi-cloud cluster *mach1*
 ```
 ./pgedge multicloud cluster-create mach1 "aws:iad:n1, eqnx:dfw:n2"
 ```
