@@ -1,7 +1,8 @@
 
 ![# pgEdge Distributed Postgres](img/pgedge-dp-banner.png)
 
-Our Distributed Postgres runs nicely on bare metal, vm's, & containers, but...  perhaps you are asking yourself, "[What is pgEdge?](https://www.pgedge.com/products/what-is-pgedge)"
+Our Distributed Postgres runs nicely on bare metal, vm's, & containers, but...  perhaps you are asking yourself, 
+"[Who is pgEdge?](https://www.pgedge.com/company)" or what are the [supported extensions](community-extensions.md).
 
 # For free trial versions of production ready software:
 - Try [pgEdge Platform](https://www.pgedge.com/get-started/platform) to host and manage a pgEdge cluster yourself or [Cloud Developer Edition](https://www.pgedge.com/get-started/cloud) and be running a global managed cluster in < 90s (and get a free t-shirt)
