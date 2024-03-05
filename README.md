@@ -2,12 +2,11 @@
 ![# pgEdge Distributed Postgres](img/pgedge-dp-banner.png)
 
 Our Distributed Postgres runs nicely on bare metal, vm's, & containers, but...  perhaps you are asking yourself, 
-"[Who is pgEdge?](https://www.pgedge.com/company)" or what are the [supported extensions](community-extensions.md).
+"What are the [supported extensions](community-extensions.md)?" or "What does the [changelog](changelog.md) look like?"
 
-# For free trial versions of production ready software:
-- Try [pgEdge Platform](https://www.pgedge.com/get-started/platform) to host and manage a pgEdge cluster yourself or [Cloud Developer Edition](https://www.pgedge.com/get-started/cloud) and be running a global managed cluster in < 90s (and get a free t-shirt)
+You can try our [cloud developer edition](https://www.pgedge.com/get-started/cloud) for free and be running a global managed cluster in < 90s (and get a free tshirt)
 
-# To install our latest developers CLI & binaries:
+# To install our latest stable open source binaries:
 
 ```
 python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.py)"
@@ -37,8 +36,6 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
 
 <details>
 <summary>Useful Notes</summary>
-
-- Interested in our [CHANGELOG](https://github.com/pgEdge/cli/blob/REL24_1/CHANGELOG.md)
 
 - Install as a non-root user from your `$HOME` directory
 
