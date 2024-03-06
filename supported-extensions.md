@@ -3,7 +3,7 @@
 
 _ |Component|Github Project|Description
 ---|---|---|---|
-<img src=img/spock.png height=25 width=auto> | spock | [pgedge/spock](https://github.com/pgedge/spock) | Multi-master w/ Conflict Resolution
+<img src=img/spock.png height=25 width=auto> | spock | [pgedge/spock](https://github.com/pgedge/spock) | Multi-master w/ conflict resolution
 <img src=img/snowflake.png height=25 width=auto> | snowflake | [pgedge/snowflake](https://github.com/pgedge/snowflake-sequences/tags) | Sequences unique like snowflakes
 <img src=img/readonly.png height=25 width=auto> | readonly | [pgedge/readonly](https://github.com/pgedge/readonly/tags) | Block user updates on an active db
 <img src=img/vector.png height=25 width=auto> | vector | [pgvector/pgvector](https://github.com/pgvector/pgvector/tags) | Nearest-neighbor similarity searching

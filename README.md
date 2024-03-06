@@ -2,7 +2,7 @@
 ![# pgEdge Distributed Postgres](img/pgedge-dp-banner.png)
 
 Our Distributed Postgres runs nicely on bare metal, vm's, & containers, but...  perhaps you are asking yourself, 
-"What are the [supported extensions](community-extensions.md)?" or "What does the [changelog](changelog.md) look like?"
+"What are the [supported extensions](supported-extensions.md)?" or "What does the [changelog](changelog.md) look like?"
 
 You can try our [cloud developer edition](https://www.pgedge.com/get-started/cloud) for free and be running a global managed cluster in < 90s (and get a free tshirt)
 

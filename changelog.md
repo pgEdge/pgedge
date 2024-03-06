@@ -1,6 +1,15 @@
 # pgEdge Upstream Changes Log
 
-## planned for 24.2.6 on 2024-03-10 ######
+## planned for 24.2.6 on 2024-03-07 ######
+  - update spock to 3.2.8 on pg14/15/16
+     + fix problem with pg14 build
+     + do not backup snowflake schema
+     + restrict CREATE|ALTER|DROP SUBSCRIPTION command
+     + allow CLUSTER command
+     + only allow top level statements to replicate
+  - update 'readonly' to 1.2 on pg14/15/16
+  - update postgis to 3.2.4 on pg15/16
+  - update 'vector' to 0.6.1 on pg15/16
   - spock 3.2.7 for pg14
   - fix static linking of backrest so works on ubu & el8
   - fix 'update' command to:
