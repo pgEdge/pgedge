@@ -1,13 +1,13 @@
 # pgEdge Upstream Changes Log
 
-## planned for v24.2.7+ ###
+## planned for v24.3.1+ ###
   - package extensions for easier activation from a container
   - fix 'update' command to work from 24.1.3 & forward
   - fix static linking of backrest so works on ubu & el8
   - improve static linking of OSX binaries
      
      
-## v24.2.6 on 2024-03-07 ######
+## v24.3.1 on 2024-03-07 ######
   - update 'spock32' to v3.2.8 on pg14/15/16
      + fix problem with pg14 build
      + do not backup snowflake schema
@@ -18,6 +18,7 @@
   - update postgis to 3.2.4 on pg15/16
   - update 'vector' to 0.6.1 on pg15/16
   - update 'spock33' to v3.2dev2 on el8/el9/arm9 for pg15/16
+  - fix messaging & setup issues
 
 
 ## v24.2.5 on 2024-03-01 #########
