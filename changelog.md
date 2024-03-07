@@ -1,6 +1,13 @@
 # pgEdge Upstream Changes Log
 
-## planned for 24.2.6 on 2024-03-07 ######
+## planned for 24.2.7++ ###
+  - package extensions for easier activation from a container
+  - fix 'update' command to work from 24.1.3 & forward
+  - fix static linking of backrest so works on ubu & el8
+  - improve static linking of OSX binaries
+     
+     
+## v24.2.6 on 2024-03-07 ######
   - update spock to 3.2.8 on pg14/15/16
      + fix problem with pg14 build
      + do not backup snowflake schema
@@ -10,13 +17,9 @@
   - update 'readonly' to 1.2 on pg14/15/16
   - update postgis to 3.2.4 on pg15/16
   - update 'vector' to 0.6.1 on pg15/16
-  - spock 3.2.7 for pg14
-  - fix static linking of backrest so works on ubu & el8
-  - fix 'update' command to:
-     + work from 24.1.3 (production)
 
 
-## done for 24.2.5 on 2024-03-01 #########
+## v24.2.5 on 2024-03-01 #########
   - spock v3.3dev1 for pg15 & pg16
   - New '-3' binaries for pg15.6 & pg16.2 for spock33 compatibility
   - configurable extension meta data (1st step toward disabled extensions at setup time)
@@ -29,13 +32,13 @@
   - experimental developer support for pg15 on OSX
 
 
-## done for 24.2.4 on 2024-02-23 ############
+## v24.2.4 on 2024-02-23 ############
   - spock v3.2.7 is available as default in pg15 & pg16
   - improve and document regressions tests (susan)
   - fix 'update' command to install/re-install ctlibs
 
 
-## done for 24.2.3 on 2024-02-21 ############
+## v24.2.3 on 2024-02-21 ############
   - make spock v3.2.7rc1 available for test
   - 'multicloud' CLI support for Akamai-Linode (for test clusters)
   - add test support for wal2json on pg15/16 
@@ -49,7 +52,7 @@
   - deprecate postgREST
 
 
-## done for 24.2.2 on 2024-02-14 ###########
+## v24.2.2 on 2024-02-14 ###########
   - add plv8 support for pg16 on el9 & arm9
   - fix deprecation warnings where still using 'nc' instead of 'pgedge'
   - 'setup pgedge' fully supports using flags syntax & pinning pg &/or spock versions
@@ -58,7 +61,7 @@
   - ignore --help description lines starting with ('Type: ' & 'Default: ')
 
 
-## done for 24.2.1 on 2024-02-12 ###########
+## v24.2.1 on 2024-02-12 ###########
   - bump spock32 to v3.2.6 with auto-dll fixes and regression fixes
   - bump pg16 to v16.2-2 (now includes patch with new delta apply functionality to be used in spock33)
   - fixes to avoid duplicate logging (Cady)
@@ -72,7 +75,7 @@
   - bump orafce from 4.5.0 to 4.9.2
 
 
-## done for 24.1.9 on 2024-02-07 ###########
+## v24.1.9 on 2024-02-07 ###########
   - build spock-3.2.5rc1 el9 test version for auto_ddl
   - enhance ACE with functionality to handle row offset mismatches ( PR #86 Tej)
   - bump pg minor versions to 16.2, 15.11, .....
@@ -82,7 +85,7 @@
      be able to pin the spock version
 
 
-## done for 24.1.8 on 2024-02-06 ###########
+## v24.1.8 on 2024-02-06 ###########
   - build spock-3.2.5beta2 el9 test version  for auto_ddl
     + Add tables with PK to default repset, while removing it from insert_only (if added there)
     + synchronize tables
@@ -96,7 +99,7 @@
   - remove unused .py files & use -upstream/install.py by default
 
 
-## done for 24.1.7 on 2024-01-31 ###########
+## v24.1.7 on 2024-01-31 ###########
   - build spock-3.2.5beta1 el9 test version for wip_auto_ddl functional testing
   - add util.run_native() for supporting backrest, patroni, ansible and etcd CLI's
   - bump pgvector from 0.5.1 to [0.6.0](https://github.com/pgvector/pgvector/blob/master/CHANGELOG.md)
@@ -106,7 +109,7 @@
   
 
 
-## done for 24.1.6 on 2024-01-30 ###########
+## v24.1.6 on 2024-01-30 ###########
   - work on build automation
   - lots of work updating doc
   - a cleaned up, simplified and documented CLI 'devel/setup' process
@@ -139,7 +142,7 @@
   - start using .tgz files in REPO to elimnate need for BZIP2 to be installed 
 
 
-## done for 24.1.5 on 2024-01-08 ###########
+## v24.1.5 on 2024-01-08 ###########
   - bump spock32 to v3.2.4 & remove spock31 support
   - bring back el9 version of pg17, snowflake-pg17 & spock32-pg17
   - bring skeleton.sh tests up to snuff for pg14/15/16 & el8 consideration
@@ -155,7 +158,7 @@
   - 1st pass at replacing 'cloud' w/ 'multicloud'
 
 
-## done for 24.1.4 on 2024-01-02 ###########
+## v24.1.4 on 2024-01-02 ###########
   + CLUSTER:
     - rework cluster-init json for compat with enterprise cloud
 
@@ -181,12 +184,12 @@
     - drop fakectl notes at bottom of README
 
 
-## done for 24.1.3 on 2023-12-05 ###########
+## v24.1.3 on 2023-12-05 ###########
   + CTL:
     - fix nc & nodectl regression when called from a different directory
 
 
-## done for 24.1.2 on 2023-12-04 ###########
+## v24.1.2 on 2023-12-04 ###########
   + CTL:
     - comment out nc & nodectl deprecation warning (for now)
 
@@ -201,7 +204,7 @@
     - v3.2.2 regression fix for missing transactions in corner cases
 
 
-## done for 24.1.1 on 2023-11-30 ###########
+## v24.1.1 on 2023-11-30 ###########
   + PGEDGE:
     - 'install pgedge' now defaults to spock32 for pg14, pg15 & pg16
 
@@ -234,7 +237,7 @@
     - exclude use of urlllib3 v1.26.18 (does not work on OSX)
 
 
-## done for 24.0.10 on 2023-11-17 ###########
+## v24.0.10 on 2023-11-17 ###########
   + small fixes for Fedora 39 & python 3.12 test support
   + regenerate and cleanup doc
   + document regression tests using cluster local-create, northwind, & ace

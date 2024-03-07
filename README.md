@@ -6,16 +6,17 @@ Our Distributed Postgres runs nicely on bare metal, vm's, & containers, but...  
 
 You can try our [cloud developer edition](https://www.pgedge.com/get-started/cloud) for free and be running a global managed cluster in < 90s (and get a free tshirt)
 
-# To install our latest stable open source binaries:
+## To install our latest stable open source binaries:
 
 ```
 python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.py)"
 ```
 
+
 <details>
 <summary>Getting Started</summary>
 
-- [2 node cluster](https://github.com/pgEdge/cli/blob/REL24_1/cli/GETTING-STARTED.md) on self provisioned VM's or bare-metal
+- [2 node cluster](getting-started.md) on self provisioned VM's or bare-metal
 - [Container](https://github.com/pgEdge/pgedge-docker/blob/main/README.md) strategy and docker-compose examples
 - [Helm & Kubernetes](https://github.com/pgEdge/pgedge-helm/blob/main/examples/README.md) charts & examples
 </details>
@@ -46,8 +47,7 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
 - Tested with Python 3.9+ 
   - Python 3.9 on EL8, EL9, SLE-15, & Amazon Linux 2023
   - Python 3.10 on Ubuntu 22.04
-  - Python 3.11 on Ubuntu 23.10 (experimental)
-  - Python 3.11 on OSX arm64 (experimental)
+  - Python 3.12 on OSX arm64 (experimental)
   - Python 3.12 on Fedora 39 (experimental)
 
 - pgEdge [Community License](https://www.pgedge.com/communitylicense)
@@ -62,27 +62,27 @@ Sandbox with latest *Postgres 16*, *Spock* & *Snowflake* installed into default 
 ./pgedge install pg16 --start : install spock : install snowflake
 ```
 
-Create db *db1* owned by *denis* installing & configuring *pgedge* core components (*Spock* & *Snowflake*) into *pg16*
+Create db *db1* owned by *denis* installing & configuring *pgedge* core components (*Spock* & *Snowflake*) into *pg16*<br>
 ```
 ./pgedge setup -U denis -P secret -d db1 --pg 16
 ```
 
-Create a cluster *cl1* on localhost with two nodes, then install *northwind sample app* on *cl1* cluster
+Create a cluster *cl1* on localhost with two nodes, then install *northwind sample app* on *cl1* cluster<br>
 ```
-./pgedge cluster localhost-create cl1 2 : cluster app-install cl1 northwind
+./pgedge cluster localhost-create cl1 2 : cluster app-install cl1 northwind<br>
 ```
 
-Authenticate with pgEdge Cloud credentials, then list your clusters
+Authenticate with pgEdge Cloud credentials, then list your clusters<br>
 ```
 ./pgedge cloud login : cloud cluster-list
 ```
 
-Create virtual machine (node) *n1* on **AWS** in Northen Virginia and *n2* on **Equinix Metal** in Dallas
+Create virtual machine (node) *n1* on **AWS** in Northen Virginia and *n2* on **Equinix Metal** in Dallas<br>
 ```
-./pgedge multicloud node-create aws iad n1 : multicloud node-create eqnx dfw n2
+./pgedge multicloud node-create aws iad n1 : multicloud node-create eqnx dfw n2<br>
 ```
 
-Create a multi-cloud cluster *mach1*
+Create a multi-cloud cluster *mach1*<br>
 ```
 ./pgedge multicloud cluster-create mach1 "aws:iad:n1, eqnx:dfw:n2"
 ```
