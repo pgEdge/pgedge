@@ -6,6 +6,7 @@
 ## v24.3.2 planned for 2024-03-14 #####
 Done so far:
   - 'localhost' commands split out from 'cluster'
+
 Planned:     
   - update 'backrest' to v2.50-3 w/ incremental improvements
   - fix 'update' command to work from 24.1.3 & forward
