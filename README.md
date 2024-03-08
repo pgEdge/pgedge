@@ -26,7 +26,8 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
 
 - [spock](https://github.com/pgEdge/cli/blob/REL24_1/cli/SPOCK-README.md) - Multi-master Postgres configuration
 - [cloud](https://github.com/pgEdge/cli/blob/REL24_1/cli/CLOUD-README.md) - Securely control your pgEdge Cloud clusters
-- [cluster](https://github.com/pgEdge/cli/blob/REL24_1/cli/CLUSTER-README.md) - Create and control a localhost or remote cluster
+- [cluster](https://github.com/pgEdge/cli/blob/REL24_1/cli/CLUSTER-README.md) - Create and control a remote cluster
+- [localhost](https://github.com/pgEdge/cli/blob/REL24_1/cli/LOCALHOST-README.md) - Create a localhost cluster
 - [vm](https://github.com/pgEdge/cli/blob/REL24_1/cli/VM-README.md) - Provision & control virtual machines on multiple clouds
 - [ace](https://github.com/pgEdge/cli/blob/REL24_1/cli/ACE-README.md) - The **A**nti **C**haos **E**ngine helps to efficiently prove your remote tables are in sync
 - [db](https://github.com/pgEdge/cli/blob/REL24_1/cli/DB-README.md) - Configure and control Postgres db's
