@@ -1,10 +1,13 @@
 # pgEdge Upstream Changes Log
 
-## planned for v24.3.1+ ###
+## planned for v24.3.2+ ###
   - package extensions for easier activation from a container
   - fix 'update' command to work from 24.1.3 & forward
   - fix static linking of backrest so works on ubu & el8
   - improve static linking of OSX binaries
+
+## v24.3.2 planned for 2024-0314 #####
+  - 'localhost' commands split out from 'cluster'
      
      
 ## v24.3.1 on 2024-03-07 ######
@@ -15,7 +18,7 @@
      + allow CLUSTER command
      + only allow top level statements to replicate
   - update 'readonly' to 1.2 on pg14/15/16
-  - update postgis to 3.2.4 on pg15/16
+  - update 'postgis' to 3.2.4 on pg15/16
   - update 'vector' to 0.6.1 on pg15/16
   - update 'spock33' to v3.2dev2 on el8/el9/arm9 for pg15/16
   - fix messaging & setup issues
