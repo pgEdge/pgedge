@@ -3,45 +3,33 @@
 
 Our Distributed Postgres runs by default in a sandbox & nicely on vm's, containers or metal.  Take a look at the community [extensions](supported-extensions.md) we support or peruse our [changes](changelog.md) for a complete list of current improvements and fixes.
 
-Our free [cloud](https://www.pgedge.com/get-started/cloud) developer edition lets you setup a global managed cluster in less than 90 seconds.  Also check out our [containers](https://github.com/pgEdge/pgedge-docker/blob/main/README.md) or [k8](https://github.com/pgEdge/pgedge-helm/blob/main/examples/README.md) examples.
+Our free [cloud](https://www.pgedge.com/get-started/cloud) developer edition lets you setup a global managed cluster in less than 90 seconds.  Also check out our [containers](https://github.com/pgEdge/pgedge-docker/blob/main/README.md) or [k8](https://github.com/pgEdge/pgedge-helm/blob/main/examples/README.md) examples.  
+
+Learn more about [our sponsor](https://pgedge.com).
 
 
-## To install our latest stable open source binaries from CLI:
+### To install our open source binaries
 
 ```
 python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.py)"
 ```
-<details>
-<summary>CLI Pre Req's</summary>
+### Easily get started
+Our minimal [pre-req's]() allow you to quickly get started with an example [VM](example-vm-cluster.md) or [localhost](example-localhost-cluster.md) cluster. 
 
-- Install as a non-root user from your `$HOME` directory
-
-- configure [password-less sudo](http://lussier.io/index.php/2023/04/07/passwordless-sudo/) and [password-less ssh to localhost](http://lussier.io/index.php/2023/06/07/passwordless-ssh-to-localhost-2) for using `localhost cluster` commands
-
-- Tested with Python 3.9+ 
-  - Python 3.9 on EL8, EL9, SLE-15, & Amazon Linux 2023
-  - Python 3.10 on Ubuntu 22.04
-  - Python 3.12 on OSX arm64 (experimental)
-  - Python 3.12 on Fedora 39 (experimental)
-
-Get started with a cluster of [VM's](getting-started.md) or a [localhost]() cluster. 
-</details>
-
-<details>
-<summary>CLI Documentation</summary>
-
-- [spock](https://github.com/pgEdge/cli/blob/REL24_1/cli/SPOCK-README.md) - Multi-master Postgres configuration
-- [cluster](https://github.com/pgEdge/cli/blob/REL24_1/cli/CLUSTER-README.md) - Create and control a remote cluster
+### CLI Help
+- [setup]() - A postgres node running pgEdge (includes ***[spock]()*** & ***[snowflake]()*** extensions)<br>
+- [spock](https://github.com/pgEdge/cli/blob/REL24_1/cli/SPOCK-README.md) - The CLI for the world's best multi-master [Postgres](https://postgresql.org) extension
 - [localhost](https://github.com/pgEdge/cli/blob/REL24_1/cli/LOCALHOST-README.md) - Create a localhost cluster
-- [vm](https://github.com/pgEdge/cli/blob/REL24_1/cli/VM-README.md) - Provision virtual machines (supports Equinix, Akamai & AWS)
-- [ace](https://github.com/pgEdge/cli/blob/REL24_1/cli/ACE-README.md) - The **A**nti **C**haos **E**ngine helps to efficiently prove your remote tables are in sync
+- [vm](https://github.com/pgEdge/cli/blob/REL24_1/cli/VM-README.md) - Provision VM's to run pgEdge (presently supports Equinix, Akamai & AWS)
+- [cluster](https://github.com/pgEdge/cli/blob/REL24_1/cli/CLUSTER-README.md) - Define & control a cluster of VM's
+- [ACE](https://github.com/pgEdge/cli/blob/REL24_1/cli/ACE-README.md) - The Anti-Chaos Engine helps to efficiently prove your remote tables are in sync
 - [db](https://github.com/pgEdge/cli/blob/REL24_1/cli/DB-README.md) - Configure and control Postgres db's
+<br><br>
 - [um](https://github.com/pgEdge/cli/blob/REL24_1/cli/UM-README.md) - Update Manager commands
 - [service](https://github.com/pgEdge/cli/blob/REL24_1/cli/SERVICE-README.md) - Service control commands
-</details>
 
 <details>
-<summary>Usage Samples</summary>
+<summary>More CLI Examples</summary>
 <br>
 Sandbox with latest *Postgres 16*, *Spock* & *Snowflake* installed into default *postgres* db<br>
 ```
@@ -58,18 +46,13 @@ Create a cluster *cl1* on localhost with two nodes, then install *northwind samp
 ./pgedge cluster localhost-create cl1 2 : cluster app-install cl1 northwind<br>
 ```
 
-Authenticate with pgEdge Cloud credentials, then list your clusters<br>
-```
-./pgedge cloud login : cloud cluster-list
-```
-
 Create virtual machine (node) *n1* on **AWS** in Northen Virginia and *n2* on **Equinix Metal** in Dallas<br>
 ```
-./pgedge multicloud node-create aws iad n1 : multicloud node-create eqnx dfw n2<br>
+./pgedge vm node-create aws iad n1 : multicloud node-create eqnx dfw n2<br>
 ```
 
 Create a multi-cloud cluster *mach1*<br>
 ```
-./pgedge multicloud cluster-create mach1 "aws:iad:n1, eqnx:dfw:n2"
+./pgedge vm cluster-create mach1 "aws:iad:n1, eqnx:dfw:n2"
 ```
 </details>
