@@ -5,22 +5,27 @@ Our Distributed Postgres runs by default in a sandbox & nicely on vm's, containe
 
 You can also try our [cloud](https://www.pgedge.com/get-started/cloud) developer edition for free and be running a global managed cluster in < 90s (and get a free tshirt).   
 
-## To install our latest stable open source binaries:
+## To install our latest stable open source binaries from CLI:
 
 ```
 python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.py)"
 ```
-
-
 <details>
-<summary>Getting Started</summary>
+<summary>CLI Pre Req's</summary>
 
-- [2 node cluster](getting-started.md) on self provisioned VM's or bare-metal
-- [Container](https://github.com/pgEdge/pgedge-docker/blob/main/README.md) strategy and docker-compose examples
-- [Helm & Kubernetes](https://github.com/pgEdge/pgedge-helm/blob/main/examples/README.md) charts & examples
-</details>
+- Install as a non-root user from your `$HOME` directory
 
-<details>
+- configure [password-less sudo](http://lussier.io/index.php/2023/04/07/passwordless-sudo/) and [password-less ssh to localhost](http://lussier.io/index.php/2023/06/07/passwordless-ssh-to-localhost-2) for using `localhost cluster` commands
+
+- Tested with Python 3.9+ 
+  - Python 3.9 on EL8, EL9, SLE-15, & Amazon Linux 2023
+  - Python 3.10 on Ubuntu 22.04
+  - Python 3.12 on OSX arm64 (experimental)
+  - Python 3.12 on Fedora 39 (experimental)
+
+Get started with a cluster of [VM's](getting-started.md) or a [localhost]() cluster. 
+If you fancy; check out our [Containers](https://github.com/pgEdge/pgedge-docker/blob/main/README.md) and [Helm & Kubernetes](https://github.com/pgEdge/pgedge-helm/blob/main/examples/README.md) examples.
+
 <summary>CLI Documentation</summary>
 
 - [spock](https://github.com/pgEdge/cli/blob/REL24_1/cli/SPOCK-README.md) - Multi-master Postgres configuration
@@ -31,27 +36,6 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
 - [db](https://github.com/pgEdge/cli/blob/REL24_1/cli/DB-README.md) - Configure and control Postgres db's
 - [um](https://github.com/pgEdge/cli/blob/REL24_1/cli/UM-README.md) - Update Manager commands
 - [service](https://github.com/pgEdge/cli/blob/REL24_1/cli/SERVICE-README.md) - Service control commands
-</details>
-
-
-<details>
-<summary>Useful Notes</summary>
-
-- Install as a non-root user from your `$HOME` directory
-
-- configure [password-less sudo](http://lussier.io/index.php/2023/04/07/passwordless-sudo/) for easier testing of advanced commands
-
-- set up [password-less ssh to localhost](http://lussier.io/index.php/2023/06/07/passwordless-ssh-to-localhost-2) for using `cluster localhost-create` commands
-
-- Tested with Python 3.9+ 
-  - Python 3.9 on EL8, EL9, SLE-15, & Amazon Linux 2023
-  - Python 3.10 on Ubuntu 22.04
-  - Python 3.12 on OSX arm64 (experimental)
-  - Python 3.12 on Fedora 39 (experimental)
-
-- pgEdge [Community License](https://www.pgedge.com/communitylicense)
-</details>
-
 
 <details>
 <summary>Usage Samples</summary>
