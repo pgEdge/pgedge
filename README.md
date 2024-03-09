@@ -3,7 +3,8 @@
 
 Our Distributed Postgres runs by default in a sandbox & nicely on vm's, containers or metal.  Take a look at the community [extensions](supported-extensions.md) we support or peruse our [changes](changelog.md) for a complete list of current improvements and fixes.
 
-You can also try our [cloud](https://www.pgedge.com/get-started/cloud) developer edition for free and be running a global managed cluster in < 90s (and get a free tshirt).   
+Our free [cloud](https://www.pgedge.com/get-started/cloud) developer edition lets you setup a global managed cluster in less than 90 seconds.  Also check out our [containers](https://github.com/pgEdge/pgedge-docker/blob/main/README.md) or [k8](https://github.com/pgEdge/pgedge-helm/blob/main/examples/README.md) examples.
+
 
 ## To install our latest stable open source binaries from CLI:
 
@@ -24,8 +25,9 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
   - Python 3.12 on Fedora 39 (experimental)
 
 Get started with a cluster of [VM's](getting-started.md) or a [localhost]() cluster. 
-If you fancy; check out our [Containers](https://github.com/pgEdge/pgedge-docker/blob/main/README.md) and [Helm & Kubernetes](https://github.com/pgEdge/pgedge-helm/blob/main/examples/README.md) examples.
+</details>
 
+<details>
 <summary>CLI Documentation</summary>
 
 - [spock](https://github.com/pgEdge/cli/blob/REL24_1/cli/SPOCK-README.md) - Multi-master Postgres configuration
@@ -36,10 +38,11 @@ If you fancy; check out our [Containers](https://github.com/pgEdge/pgedge-docker
 - [db](https://github.com/pgEdge/cli/blob/REL24_1/cli/DB-README.md) - Configure and control Postgres db's
 - [um](https://github.com/pgEdge/cli/blob/REL24_1/cli/UM-README.md) - Update Manager commands
 - [service](https://github.com/pgEdge/cli/blob/REL24_1/cli/SERVICE-README.md) - Service control commands
+</details>
 
 <details>
 <summary>Usage Samples</summary>
-
+<br>
 Sandbox with latest *Postgres 16*, *Spock* & *Snowflake* installed into default *postgres* db<br>
 ```
 ./pgedge install pg16 --start : install spock : install snowflake
