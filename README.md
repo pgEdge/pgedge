@@ -1,10 +1,9 @@
 
 ![# pgEdge Distributed Postgres](img/pgedge-dp-banner.png)
 
-Our Distributed Postgres runs nicely on bare metal, vm's, & containers, but...  perhaps you are asking yourself, 
-"What are the [supported extensions](supported-extensions.md)?" or "What does the [changelog](changelog.md) look like?"
+Our Distributed Postgres runs by default in a sandbox & nicely on vm's, containers or metal.  Take a look at the community [extensions](supported-extensions.md) we support or peruse our [changes](changelog.md) for a complete list of current improvements and fixes.
 
-You can try our [cloud developer edition](https://www.pgedge.com/get-started/cloud) for free and be running a global managed cluster in < 90s (and get a free tshirt)
+You can also try our [cloud](https://www.pgedge.com/get-started/cloud) developer edition for free and be running a global managed cluster in < 90s (and get a free tshirt).   
 
 ## To install our latest stable open source binaries:
 
@@ -25,10 +24,9 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
 <summary>CLI Documentation</summary>
 
 - [spock](https://github.com/pgEdge/cli/blob/REL24_1/cli/SPOCK-README.md) - Multi-master Postgres configuration
-- [cloud](https://github.com/pgEdge/cli/blob/REL24_1/cli/CLOUD-README.md) - Securely control your pgEdge Cloud clusters
 - [cluster](https://github.com/pgEdge/cli/blob/REL24_1/cli/CLUSTER-README.md) - Create and control a remote cluster
 - [localhost](https://github.com/pgEdge/cli/blob/REL24_1/cli/LOCALHOST-README.md) - Create a localhost cluster
-- [vm](https://github.com/pgEdge/cli/blob/REL24_1/cli/VM-README.md) - Provision & control virtual machines on multiple clouds
+- [vm](https://github.com/pgEdge/cli/blob/REL24_1/cli/VM-README.md) - Provision virtual machines (supports Equinix, Akamai & AWS)
 - [ace](https://github.com/pgEdge/cli/blob/REL24_1/cli/ACE-README.md) - The **A**nti **C**haos **E**ngine helps to efficiently prove your remote tables are in sync
 - [db](https://github.com/pgEdge/cli/blob/REL24_1/cli/DB-README.md) - Configure and control Postgres db's
 - [um](https://github.com/pgEdge/cli/blob/REL24_1/cli/UM-README.md) - Update Manager commands
