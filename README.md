@@ -1,21 +1,15 @@
 
 ![# pgEdge Distributed Postgres](img/pgedge-dp-banner.png)
 
-Our Distributed Postgres runs by default in a sandbox & nicely on virtual machines (VM's), containers or metal.  Peruse our [Change Log](changelog.md) for a complete list of incremental improvements and fixes.
+Our Distributed Multi-master Postgres runs by default in a sandbox & nicely on virtual machines (VM's), containers or metal.  Peruse our [Change Log](changelog.md) for a complete list of incremental improvements and fixes.
 
 Learn more [about](https://pgedge.com/company) our sponsor or try our free cloud [Developer Edition](https://www.pgedge.com/get-started/cloud) to setup a global managed cluster in less than 90 seconds.  Also check out our [Docker](https://github.com/pgEdge/pgedge-docker/blob/main/README.md) or [K8's Helm](https://github.com/pgEdge/pgedge-helm/blob/main/examples/README.md) examples.  
 
 
-## To install pgEdge Multi-master Postgres on a single node
+## To install pgEdge on a single node
+<details>
+<summary>Node Pre-Reqs</summary>
 
-```
-python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.py)"
-cd pgedge
-./pgedge setup -U usr -P passwd -d demo --pg 16
-```
-Our Multi-master Postgres features our [Spock Extension](https://github.com/pgEdge/spock) and [Snowflake Sequences](https://github.com/pgedge/snowflake-sequences).  We also allow you to install a very complete list of  [Supported Extensions](supported-extensions.md). 
-
-## Pre-Req's
 - Use a  non-root user from the command line
 - configure [password-less sudo](http://lussier.io/index.php/2023/04/07/passwordless-sudo/) if you want to install daemon services on localhost
 - configure [password-less ssh](http://lussier.io/index.php/2023/06/07/passwordless-ssh-to-localhost-2) to localhost for using `localhost cluster` commands
@@ -24,9 +18,19 @@ Our Multi-master Postgres features our [Spock Extension](https://github.com/pgEd
   - Python 3.10 on Ubuntu 22.04
   - Python 3.12 on OSX arm64 (experimental)
   - Python 3.12 on Fedora 39 (experimental)
+</details>
 
-## Tutorials
-Quickly get started with **[VM's](example-vm-cluster.md)** or a **[LocalHost](example-localhost-cluster.md)** test cluster. 
+```
+python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.py)"
+cd pgedge
+./pgedge setup -U usr -P passwd -d demo --pg 16
+```
+Our Multi-master Postgres features our [Spock Extension](https://github.com/pgEdge/spock) and [Snowflake Sequences](https://github.com/pgedge/snowflake-sequences).  We also allow you to install a very complete list of  [Supported Extensions](supported-extensions.md). 
+
+
+
+
+## Cluster Tutorials using [VM's](tutorials/vm-cluster.md) or [Localhost](tutorials/localhost-cluster.md)
 
 ## CLI Commands
 Img | Command | Description
@@ -35,7 +39,7 @@ Img | Command | Description
 <img src=img/localhost.png width=25>  | **[localhost](https://github.com/pgEdge/cli/blob/REL24_1/cli/LOCALHOST-README.md)** | Create a localhost test cluster
 <img src=img/vm.png width=25> | **[vm](https://github.com/pgEdge/cli/blob/REL24_1/cli/VM-README.md)** | Provision VM's to run pgEdge (presently supports Equinix, Akamai & AWS)
 <img src=img/cluster.png width=22> | **[cluster](https://github.com/pgEdge/cli/blob/REL24_1/cli/CLUSTER-README.md)** | Define & control a cluster of VM's
-<img src=img/ace.png width=27> | **[ace](https://github.com/pgEdge/cli/blob/REL24_1/cli/ACE-README.md)** | The Anti-Chaos Engine helps to efficiently prove your remote tables are in sync
+<img src=img/ace.png width=27> | **[ace](https://github.com/pgEdge/cli/blob/REL24_1/cli/ACE-README.md)** | The Anti-Chaos Engine efficiently proves your remote tables are in sync
 <img src=img/db-pg.png width=25> | **[db](https://github.com/pgEdge/cli/blob/REL24_1/cli/DB-README.md)** | Configure and control postgres db's
 <img src=img/um.png width=25> | **[um](https://github.com/pgEdge/cli/blob/REL24_1/cli/UM-README.md)** | Update manager commands
 <img src=img/service.png width=22> | **[service](https://github.com/pgEdge/cli/blob/REL24_1/cli/SERVICE-README.md)** | Service control commands
