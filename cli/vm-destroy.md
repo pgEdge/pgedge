@@ -1,0 +1,10 @@
+## SYNOPSIS
+    ./pgedge vm destroy PROVIDER AIRPORT VM_NAME
+ 
+## DESCRIPTION
+    Destroy a VM
+ 
+## POSITIONAL ARGUMENTS
+    PROVIDER
+    AIRPORT
+    VM_NAME

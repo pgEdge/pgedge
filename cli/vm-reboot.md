@@ -1,0 +1,10 @@
+## SYNOPSIS
+    ./pgedge vm reboot PROVIDER AIRPORT VM_NAME
+ 
+## DESCRIPTION
+    Reboot a VM
+ 
+## POSITIONAL ARGUMENTS
+    PROVIDER
+    AIRPORT
+    VM_NAME

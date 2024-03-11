@@ -1,0 +1,10 @@
+## SYNOPSIS
+    ./pgedge vm start PROVIDER AIRPORT VM_NAME
+ 
+## DESCRIPTION
+    Start a VM
+ 
+## POSITIONAL ARGUMENTS
+    PROVIDER
+    AIRPORT
+    VM_NAME
