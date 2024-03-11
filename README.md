@@ -1,26 +1,34 @@
 
 ![# pgEdge Distributed Postgres](img/pgedge-dp-banner.png)
 
-Our Distributed Postgres runs by default in a sandbox & nicely on virtual machines (VM's), containers or metal.  Take a look at the [community extensions](supported-extensions.md) we support or peruse our [changelog](changelog.md) for a complete list of incremental improvements and fixes.
+Our Distributed Postgres runs by default in a sandbox & nicely on virtual machines (VM's), containers or metal.  Peruse our [Change Log](changelog.md) for a complete list of incremental improvements and fixes.
 
-Learn more [about](https://pgedge.com/company) our sponsor or try our free cloud [developer edition](https://www.pgedge.com/get-started/cloud) to setup a global managed cluster in less than 90 seconds.  Also check out our [containers](https://github.com/pgEdge/pgedge-docker/blob/main/README.md) or [k8](https://github.com/pgEdge/pgedge-helm/blob/main/examples/README.md) examples.  
+Learn more [about](https://pgedge.com/company) our sponsor or try our free cloud [Developer Edition](https://www.pgedge.com/get-started/cloud) to setup a global managed cluster in less than 90 seconds.  Also check out our [Docker](https://github.com/pgEdge/pgedge-docker/blob/main/README.md) or [K8's Helm](https://github.com/pgEdge/pgedge-helm/blob/main/examples/README.md) examples.  
 
 
-### To install [pgEdge multi-master](pgedge-extensions.md) Postgres on a single node
+## To install pgEdge Multi-master Postgres on a single node
 
 ```
 python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.py)"
 cd pgedge
 ./pgedge setup -U usr -P passwd -d demo --pg 16
 ```
-Our multi-master Postgres features our **[spock](https://github.com/pgEdge/spock)** extension & **[snowflake](https://github.com/pgedge/snowflake-sequences)** sequences. 
+Our Multi-master Postgres features our [Spock Extension](https://github.com/pgEdge/spock) and [Snowflake Sequences](https://github.com/pgedge/snowflake-sequences).  We also allow you to install a very complete list of  [Supported Extensions](supported-extensions.md). 
 
-### Easily get started
-Our minimal [pre-req's](pre-reqs.md) allow you to quickly get started with [VM's](example-vm-cluster.md) or a [localhost](example-localhost-cluster.md) test cluster. 
+## Pre-Req's
+- Use a  non-root user from the command line
+- configure [password-less sudo](http://lussier.io/index.php/2023/04/07/passwordless-sudo/) if you want to install daemon services on localhost
+- configure [password-less ssh](http://lussier.io/index.php/2023/06/07/passwordless-ssh-to-localhost-2) to localhost for using `localhost cluster` commands
+- Tested with Python 3.9+ 
+  - Python 3.9 on EL8, EL9, SLE-15, & Amazon Linux 2023
+  - Python 3.10 on Ubuntu 22.04
+  - Python 3.12 on OSX arm64 (experimental)
+  - Python 3.12 on Fedora 39 (experimental)
 
-```
-./pgedge --help
-```
+## Tutorials
+Quickly get started with **[VM's](example-vm-cluster.md)** or a **[LocalHost](example-localhost-cluster.md)** test cluster. 
+
+## CLI Commands
 Img | Command | Description
 --- | ------- | -----------
 <img src=img/spock.png width=25> | **[spock](https://github.com/pgEdge/cli/blob/REL24_1/cli/SPOCK-README.md)** | Commands for configuring the world's best multi-master [Postgres](https://postgresql.org) extension
@@ -32,31 +40,28 @@ Img | Command | Description
 <img src=img/um.png width=25> | **[um](https://github.com/pgEdge/cli/blob/REL24_1/cli/UM-README.md)** | Update manager commands
 <img src=img/service.png width=22> | **[service](https://github.com/pgEdge/cli/blob/REL24_1/cli/SERVICE-README.md)** | Service control commands
 
-<details>
-<summary>More CLI Examples</summary>
-<br>
-Sandbox with latest *Postgres 16*, *Spock* & *Snowflake* installed into default *postgres* db<br>
+## CLI Examples
+##### Sandbox with latest *Postgres 16*, *Spock* & *Snowflake* installed into default *postgres* db
 ```
 ./pgedge install pg16 --start : install spock : install snowflake
 ```
 
-Create db *db1* owned by *denis* installing & configuring *pgedge* core components (*Spock* & *Snowflake*) into *pg16*<br>
+##### Create database *db1* owned by *denis* & setting up *Spock* & *Snowflake*  into *pg16*
 ```
 ./pgedge setup -U denis -P secret -d db1 --pg 16
 ```
 
-Create a cluster *cl1* on localhost with two nodes, then install *northwind sample app* on *cl1* cluster<br>
+##### Create a cluster *cl1* on localhost with two nodes, then install *northwind sample app* on cluster
 ```
-./pgedge cluster localhost-create cl1 2 : cluster app-install cl1 northwind<br>
-```
-
-Create virtual machine (node) *n1* on **AWS** in Northen Virginia and *n2* on **Equinix Metal** in Dallas<br>
-```
-./pgedge vm node-create aws iad n1 : multicloud node-create eqnx dfw n2<br>
+./pgedge cluster localhost-create cl1 2 : cluster app-install cl1 northwind
 ```
 
-Create a multi-cloud cluster *mach1*<br>
+##### Create virtual machine (node) *n1* on **AWS** in Northen Virginia and *n2* on **Equinix Metal** in Dallas
+```
+./pgedge vm node-create aws iad n1 : vm node-create eqnx dfw n2
+```
+
+##### Create a multi-cloud cluster *mach1*
 ```
 ./pgedge vm cluster-create mach1 "aws:iad:n1, eqnx:dfw:n2"
 ```
-</details>
