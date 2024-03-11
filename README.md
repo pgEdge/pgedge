@@ -34,7 +34,7 @@ cd pgedge
 
 #####  <img src=img/spock.png height=35> **[pgedge/spock](https://github.com/pgedge/spock)** - Multi-Master w/ Conflict Resolution, Auto DDL and Delta Apply
 
-##### <img src=img/snowflake.png height=35> **[pgedge/snowflake](https://github.com/pgedge/snowflake-sequences/tags)** - Sequences that are as unique as snowflakes
+##### <img src=img/snowflake.png height=35> **[pgedge/snowflake](https://github.com/pgedge/snowflake-sequences)** - Sequences that are as unique as snowflakes
 
 ##### <img src=img/pg-community.png height=35> **[Community Extensions](supported-extensions.md)** - All the best such as Postgis, pgVector, Citus... 
 
