@@ -40,9 +40,9 @@ cd pgedge
 
 ## CLI Commands
 
-<img src=img/spock-cli-help.png width=30>&nbsp;&nbsp; **[spock](cli/SPOCK.md)** - Commands for configuring the world's best multi-master [PostgreSQL](https://postgresql.org) extension
+<img src=img/spock-cli.png width=30>&nbsp;&nbsp; **[spock](cli/SPOCK.md)** - Commands for configuring the world's best multi-master [PostgreSQL](https://postgresql.org) extension
 
-<img src=img/localhost.png width=30>&nbsp;&nbsp; **[localhost](cli-help/LOCALHOST.md)** - Create a localhost test cluster
+<img src=img/localhost.png width=30>&nbsp;&nbsp; **[localhost](cli/LOCALHOST.md)** - Create a localhost test cluster
 
 <img src=img/vm.png width=30>&nbsp;&nbsp; **[vm](cli/VM.md)** -Provision VM's to run pgEdge (presently supports Equinix, Akamai & AWS)
 
