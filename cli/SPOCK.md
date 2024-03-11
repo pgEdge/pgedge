@@ -15,9 +15,8 @@ Logical and Multi-Master PostgreSQL node configuration
 [**repset-drop**](help/spock-repset-drop.md) - Drop a replication set<br>
 [**repset-add-table**](help/spock-repset-add-table.md)  - Add table(s) to a replication set<br>
 [**repset-remove-table**](help/spock-repset-remove-table.md)  - remove table(s) from a replication set<br>
-[**repset-add-seq**](help/spock-repset-add-seq.md)     - Add a sequence to a replication set<br>
-[**repset-remove-seq**](help/spock-repset-remove-seq.md)     - Remove a sequence from a replication set<br>
-[**repset-alter-seq**](help/spock-repset-alter-seq.md)     - Change a replication set sequence<br>
+[**repset-add-partition**](help/spock-repset-add-partition.md)  - Add partition(s) to a replication set<br>
+[**repset-remove-partition**](help/spock-repset-remove-partition.md)  - remove partition(s) from a replication set<br>
 [**repset-list-tables**](help/spock-repset-list-tables.md)  - List the tables in a replication set<br>
 [**sub-create**](help/spock-sub-create.md)       - Create a subscription<br>
 [**sub-drop**](help/spock-sub-drop.md)       - Remove a subscription<br>
@@ -27,10 +26,11 @@ Logical and Multi-Master PostgreSQL node configuration
 [**sub-add-repset**](help/spock-sub-add-repset.md)     - Add replication set to a subscription<br>
 [**sub-show-status**](help/spock-sub-show-status.md)        - Display the status of the subcription<br>
 [**sub-show-table**](help/spock-sub-show-table.md)      - Display subscription table(s)<br>
-[**sub-sync**](help/spock-sub-sync.md)     - Synchronize a subscription<br>
 [**sub-resync-table**](help/spock-sub-resync-table.md)     - Resynchronize a table<br>
-[**spock-sub-wait-for-sync**](help/spock-sub-wait-for-sync.md)  - Pause until subscription is synchronized<br>
+[**sub-wait-for-sync**](help/spock-sub-wait-for-sync.md)  - Pause until subscription is synchronized<br>
 [**table-wait-for-sync**](help/spock-table-wait-for-sync.md)     - Pause until a table finishes synchronizing<br>
+[**replicate-ddl**](help/spock-replicate-ddl.md)     - Replicate a DDL statement<br>
+[**sequence-convert**](help/spock-sequence-convert.md)     - Convert sequences to snowflake<br>
 [**health-check**](help/spock-health-check.md)          - Check if PG is accepting connections<br>
 [**metrics-check**](help/spock-metrics-check.md)        - Retrieve advanced DB & OS metrics<br>
 
