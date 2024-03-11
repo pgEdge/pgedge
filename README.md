@@ -25,24 +25,35 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
 cd pgedge
 ./pgedge setup -U usr -P passwd -d demo --pg 16
 ```
-Our Multi-master Postgres features our [Spock Extension](https://github.com/pgEdge/spock) and [Snowflake Sequences](https://github.com/pgedge/snowflake-sequences).  We also allow you to install a very complete list of  [Supported Extensions](supported-extensions.md). 
-
-
-
 
 ## Cluster Tutorials using [VM's](tutorials/vm-cluster.md) or [Localhost](tutorials/localhost-cluster.md)
 
-## CLI Commands
-Img | Command | Description
---- | ------- | -----------
-<img src=img/spock.png width=25> | **[spock](https://github.com/pgEdge/cli/blob/REL24_1/cli/SPOCK-README.md)** | Commands for configuring the world's best multi-master [Postgres](https://postgresql.org) extension
-<img src=img/localhost.png width=25>  | **[localhost](https://github.com/pgEdge/cli/blob/REL24_1/cli/LOCALHOST-README.md)** | Create a localhost test cluster
-<img src=img/vm.png width=25> | **[vm](https://github.com/pgEdge/cli/blob/REL24_1/cli/VM-README.md)** | Provision VM's to run pgEdge (presently supports Equinix, Akamai & AWS)
-<img src=img/cluster.png width=22> | **[cluster](https://github.com/pgEdge/cli/blob/REL24_1/cli/CLUSTER-README.md)** | Define & control a cluster of VM's
-<img src=img/ace.png width=27> | **[ace](https://github.com/pgEdge/cli/blob/REL24_1/cli/ACE-README.md)** | The Anti-Chaos Engine efficiently proves your remote tables are in sync
-<img src=img/db-pg.png width=25> | **[db](https://github.com/pgEdge/cli/blob/REL24_1/cli/DB-README.md)** | Configure and control postgres db's
-<img src=img/um.png width=25> | **[um](https://github.com/pgEdge/cli/blob/REL24_1/cli/UM-README.md)** | Update manager commands
-<img src=img/service.png width=22> | **[service](https://github.com/pgEdge/cli/blob/REL24_1/cli/SERVICE-README.md)** | Service control commands
+
+## Featured open source Extensions
+
+#####  <img src=img/spock.png height=35> **[pgedge/spock](https://github.com/pgedge/spock)** - Multi-Master w/ Conflict Resolution, Auto DDL and Delta Apply
+
+##### <img src=img/snowflake.png height=35> **[pgedge/snowflake](https://github.com/pgedge/snowflake-sequences/tags)** - Sequences that are as unique as snowflakes
+
+##### <img src=img/pg-community.png height=35> **[Community Extensions](supported-extensions.md)** - All the best such as Postgis, pgVector, Citus... 
+
+## [CLI](https://github.com/pgedge/cli) Commands
+
+<img src=img/spock-cli.png width=30>&nbsp;&nbsp; **[spock](cli/SPOCK-README.md)** - Commands for configuring the world's best multi-master [PostgreSQL](https://postgresql.org) extension
+
+<img src=img/localhost.png width=30>&nbsp;&nbsp; **[localhost](cli/LOCALHOST-README.md)** - Create a localhost test cluster
+
+<img src=img/vm.png width=30>&nbsp;&nbsp; **[vm](cli/VM-README.md)** -Provision VM's to run pgEdge (presently supports Equinix, Akamai & AWS)
+
+<img src=img/cluster.png width=30>&nbsp;&nbsp; **[cluster](cli/CLUSTER-README.md)** - Define & control a cluster of VM's
+
+<img src=img/ace.png width=30>&nbsp;&nbsp; **[ace](cli/ACE-README.md)** - The Anti-Chaos Engine efficiently proves your remote tables are in sync
+
+<img src=img/db-pg.png width=30>&nbsp;&nbsp; **[db](cli/DB-README.md)** - Configure and control postgres db's
+
+<img src=img/um.png width=30>&nbsp;&nbsp; **[um](cli/UM-README.md)** - Update manager commands
+
+<img src=img/service.png width=25>&nbsp;&nbsp; **[service](cli/SERVICE-README.md)** - Service control commands
 
 ## CLI Examples
 ##### Sandbox with latest *Postgres 16*, *Spock* & *Snowflake* installed into default *postgres* db
