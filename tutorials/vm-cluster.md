@@ -1,9 +1,7 @@
 # pgEdge Platform - Getting Started Guide
 
-In this guide we will step through setting up pgEdge Platform. Our example will create a two-node multi-master pgEdge cluster, and then use pgbench to create some representative tables and read/write activity on the cluster.
+In this tutorial we will step through setting up pgEdge on VM's. Our example will create a two-node multi-master pgEdge cluster, and then use pgbench to create some representative tables and read/write activity on the cluster.
 
-Two software components from pgEdge will be used in this guide. First, we’ll install the [pgedge](https://github.com/pgedge/cli) Command Line Interface (CLI) which is 
-used to install and configure PostgreSQL (Postgres) and install additional extensions. Second is [spock](https://github.com/pgedge/spock), the Postgres extension that provides logical, asynchronous, multi-master replication.
 
 Before running the commands ensure that a firewall doesn't obstruct access between your nodes. You’ll also need an operating system user with with passwordless sudo access.
 
