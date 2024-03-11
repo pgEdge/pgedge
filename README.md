@@ -40,21 +40,21 @@ cd pgedge
 
 ## CLI Commands
 
-<img src=img/spock-cli-help.png width=30>&nbsp;&nbsp; **[spock](cli/SPOCK-README.md)** - Commands for configuring the world's best multi-master [PostgreSQL](https://postgresql.org) extension
+<img src=img/spock-cli-help.png width=30>&nbsp;&nbsp; **[spock](cli/SPOCK.md)** - Commands for configuring the world's best multi-master [PostgreSQL](https://postgresql.org) extension
 
-<img src=img/localhost.png width=30>&nbsp;&nbsp; **[localhost](cli-help/LOCALHOST-README.md)** - Create a localhost test cluster
+<img src=img/localhost.png width=30>&nbsp;&nbsp; **[localhost](cli-help/LOCALHOST.md)** - Create a localhost test cluster
 
-<img src=img/vm.png width=30>&nbsp;&nbsp; **[vm](cli/VM-README.md)** -Provision VM's to run pgEdge (presently supports Equinix, Akamai & AWS)
+<img src=img/vm.png width=30>&nbsp;&nbsp; **[vm](cli/VM.md)** -Provision VM's to run pgEdge (presently supports Equinix, Akamai & AWS)
 
-<img src=img/cluster.png width=30>&nbsp;&nbsp; **[cluster](cli/CLUSTER-README.md)** - Define & control a cluster of VM's
+<img src=img/cluster.png width=30>&nbsp;&nbsp; **[cluster](cli/CLUSTER.md)** - Define & control a cluster of VM's
 
-<img src=img/ace.png width=30>&nbsp;&nbsp; **[ace](cli/ACE-README.md)** - The Anti-Chaos Engine efficiently proves your remote tables are in sync
+<img src=img/ace.png width=30>&nbsp;&nbsp; **[ace](cli/ACE.md)** - The Anti-Chaos Engine efficiently proves your remote tables are in sync
 
-<img src=img/db-pg.png width=30>&nbsp;&nbsp; **[db](cli/DB-README.md)** - Configure and control postgres db's
+<img src=img/db-pg.png width=30>&nbsp;&nbsp; **[db](cli/DB.md)** - Configure and control postgres db's
 
-<img src=img/um.png width=30>&nbsp;&nbsp; **[um](cli/UM-README.md)** - Update manager commands
+<img src=img/um.png width=30>&nbsp;&nbsp; **[um](cli/UM.md)** - Update manager commands
 
-<img src=img/service.png width=25>&nbsp;&nbsp; **[service](cli/SERVICE-README.md)** - Service control commands
+<img src=img/service.png width=25>&nbsp;&nbsp; **[service](cli/SERVICE.md)** - Service control commands
 
 ## CLI Examples
 ##### Sandbox with latest *Postgres 16*, *Spock* & *Snowflake* installed into default *postgres* db
