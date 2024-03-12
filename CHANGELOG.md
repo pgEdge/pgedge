@@ -2,21 +2,23 @@
 
 ## planned for v24.3.2+ ###
   - package extensions for easier activation from a container
+  - update 'backrest' to v2.50-3 w/ incremental improvements
+  - fix static linking of backrest so works on ubu & el8
+  - improve static linking of OSX binaries
 
 ## v24.3.2 planned for 2024-03-14 #####
 Done so far:
   - 'localhost' commands split out from 'cluster'
+  - improvements to 'cluster' usability (cady)
+  - 'db', 'cluster' & 'spock' doc cleanups (cady)
 
 Planned:     
-  - update 'backrest' to v2.50-3 w/ incremental improvements
   - fix 'update' command to work from 24.1.3 & forward
-  - fix static linking of backrest so works on ubu & el8
-  - improve static linking of OSX binaries
      
 ## v24.3.1 on 2024-03-07 ######
   - update 'spock32' to v3.2.8 on pg14/15/16
      + fix problem with pg14 build
-     + do not backup snowflake schema
+     + do not backup snowflake schema when sync_structure
      + restrict CREATE|ALTER|DROP SUBSCRIPTION command
      + allow CLUSTER command
      + only allow top level statements to replicate
