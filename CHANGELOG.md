@@ -1,16 +1,15 @@
 # pgEdge Upstream Changes Log
 
 ## planned for v24.3.2+ ###
-  - package extensions for easier activation from a container
   - update 'backrest' to v2.50-3 w/ incremental improvements
   - fix static linking of backrest so works on ubu & el8
-  - improve static linking of OSX binaries
 
 ## v24.3.2 planned for 2024-03-14 #####
 Done so far:
   - 'localhost' commands split out from 'cluster'
   - improvements to 'cluster' usability (cady)
   - 'db', 'cluster' & 'spock' doc cleanups (cady)
+  - improve static linking of OSX binaries
 
 Planned:     
   - fix 'update' command to work from 24.1.3 & forward
