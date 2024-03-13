@@ -69,7 +69,7 @@ cd pgedge
 
 ##### Create a cluster *cl1* on localhost with two nodes, then install *northwind sample app* on cluster
 ```
-./pgedge cluster localhost-create cl1 2 : cluster app-install cl1 northwind
+./pgedge localhost cluster-create cl1 2 : cluster app-install cl1 northwind
 ```
 
 ##### Create virtual machine (node) *n1* on **AWS** in Northen Virginia and *n2* on **Equinix Metal** in Dallas
