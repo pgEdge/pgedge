@@ -32,11 +32,11 @@ cd pgedge
 
 ## Featured open source Extensions
 
-#####  <img src=img/spock.png height=35> **[spock](https://github.com/pgedge/spock)** - Multi-master w/ Conflict Resolution, Auto DDL and Delta Apply
+#####  <img src=img/spock.png height=30> **[spock](https://github.com/pgedge/spock)** - Multi-master w/ Conflict Resolution, Auto DDL and Delta Apply
 
-##### <img src=img/snowflake.png height=35> **[snowflake-sequences](https://github.com/pgedge/snowflake-sequences)** - Sequences that are as unique as snowflakes
+##### <img src=img/snowflake.png height=30> **[snowflake-sequences](https://github.com/pgedge/snowflake-sequences)** - Sequences that are as unique as snowflakes
 
-##### <img src=img/pg-community.png height=35> **[Community Extensions](supported-extensions.md)** - All the best such as Postgis, pgVector, Citus... 
+##### <img src=img/pg-community.png height=30> **[Community Extensions](supported-extensions.md)** - All the best such as Postgis, pgVector, Citus... 
 
 ## CLI Commands
 
