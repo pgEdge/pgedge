@@ -1,15 +1,15 @@
 # pgEdge Upstream Changes Log
 
-## planned for v24.3.2+ ###
-  - update 'backrest' to v2.50-3 w/ incremental improvements
-  - fix static linking of backrest so works on ubu & el8
-
-## v24.3.2 planned for 2024-03-14 #####
+## v24.3.2 planned for 2024-03-19 #####
 Done so far:
+  - Large Object LOgical Replication (LOLOR) v1.0dev1
+  - spock 4.0dev3 (evovled from former spock 3.3dev2)
+  - spock 3.3.1 GA support (formerly spock 3.2.8)
+  - OSX arm64 experimental support for localhost dev/test
+  - more backup/restore/pitr integration via backrest v2.50-3 
   - 'localhost' commands split out from 'cluster'
   - improvements to 'cluster' usability (cady)
   - 'db', 'cluster' & 'spock' doc cleanups (cady)
-  - improve static linking of OSX binaries
 
 Planned:     
   - fix 'update' command to work from 24.1.3 & forward
