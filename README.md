@@ -1,7 +1,7 @@
 
 ![# pgEdge Distributed Postgres](img/pgedge-dp-banner.png)
 
-Our Distributed Multi-master Postgres runs by default in a sandbox & nicely on virtual machines (VM's), containers or metal.  Peruse our [Change Log](CHANGELOG.md) for a complete list of incremental improvements and fixes.
+Our Distributed Multi-master Postgres runs by default in a sandbox & nicely on virtual machines (VM's), containers or metal.  Peruse our [ChangeLog](CHANGELOG.md) for a complete list of incremental improvements and fixes.
 
 Learn more [about](https://pgedge.com/company) our sponsor or try our free cloud [Developer Edition](https://www.pgedge.com/get-started/cloud) to setup a global managed cluster in less than 90 seconds.  Also check out our [Docker](https://github.com/pgEdge/pgedge-docker/blob/main/README.md) or [K8's Helm](https://github.com/pgEdge/pgedge-helm/blob/main/examples/README.md) examples.  
 
@@ -42,9 +42,9 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
 
 <img src=img/localhost.png width=30>&nbsp;&nbsp; **[localhost](cli/LOCALHOST.md)** - Create a localhost test cluster
 
-<img src=img/vm.png width=30>&nbsp;&nbsp; **[vm](cli/VM.md)** -Provision VM's to run pgEdge (presently supports Equinix, Akamai & AWS)
+<img src=img/cluster.png width=30>&nbsp;&nbsp; **[cluster](cli/CLUSTER.md)** - Define & control a cluster of VM's or Metal
 
-<img src=img/cluster.png width=30>&nbsp;&nbsp; **[cluster](cli/CLUSTER.md)** - Define & control a cluster of VM's
+<img src=img/vm.png width=30>&nbsp;&nbsp; **[vm](cli/VM.md)** -Conveniece commands to provision VM's (presently supports Equinix, Akamai & AWS)
 
 <img src=img/ace.png width=30>&nbsp;&nbsp; **[ace](cli/ACE.md)** - The Anti-Chaos Engine efficiently proves your remote tables are in sync
 
