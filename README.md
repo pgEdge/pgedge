@@ -1,9 +1,9 @@
 
 ![# pgEdge Distributed Postgres](img/pgedge-dp-banner.png)
 
-Our Distributed Multi-master Postgres runs by default in a sandbox & nicely on virtual machines (VM's), containers, metal or localhost sandboxes.  Peruse our [CHANGELOG](CHANGELOG.md) for a complete list of incremental improvements and fixes.
+Our Distributed Multi-master Postgres runs by default in a sandbox & nicely on virtual machines (VM's), containers, metal or localhost sandboxes.  Peruse our [CHANGELOG](CHANGELOG.md) for a complete list of incremental improvements and fixes and, if you fancy, join our [Discord Server](https://discord.com/invite/QaqHy52sUd).
 
-Learn more [about](https://pgedge.com/company) our sponsor or try our free cloud [Developer Edition](https://www.pgedge.com/get-started/cloud) to setup a global managed cluster in less than 90 seconds.  Also check out our [Docker](https://github.com/pgEdge/pgedge-docker/blob/main/README.md) or [K8's Helm](https://github.com/pgEdge/pgedge-helm/blob/main/examples/README.md) examples.  
+Learn more about [our sponsor](https://pgedge.com/company) or try our free cloud [Developer Edition](https://www.pgedge.com/get-started/cloud) to setup a global managed cluster in less than 90 seconds.  Also check out our [Docker](https://github.com/pgEdge/pgedge-docker/blob/main/README.md) or [K8's Helm](https://github.com/pgEdge/pgedge-helm/blob/main/examples/README.md) examples.  
 
 
 ## Start by installling CLI on a single node and then running [below examples](#cli-examples)
