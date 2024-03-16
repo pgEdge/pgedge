@@ -1,5 +1,5 @@
-# CLI for consistent Management of VM's for multiple clouds
-Rapidly assemble clusters of VMs for Multiple Clouds
+# Convenience CLI for consistent provisioning and management of virtual machines
+Rapidly provision & control vm's (currently support AWS, Akamai-Linode, & Equinix)
 
 ## Synopsis
     ./pgedge vm  <command> [parameters]
