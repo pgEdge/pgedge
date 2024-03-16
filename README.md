@@ -23,8 +23,6 @@ Learn more [about](https://pgedge.com/company) our sponsor or try our free cloud
 
 ```
 python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.py)"
-cd pgedge
-./pgedge setup -U usr -P passwd -d demo --pg 16
 ```
 
 ## Cluster Tutorials using [VM's](tutorials/vm-cluster.md) or [Localhost](tutorials/localhost-cluster.md)
@@ -40,7 +38,7 @@ cd pgedge
 
 ## CLI Commands
 
-<img src=img/spock-cli.png width=30>&nbsp;&nbsp; **[spock](cli/SPOCK.md)** - Commands for configuring the world's best multi-master [PostgreSQL](https://postgresql.org) extension
+<img src=img/spock-cli.png width=30>&nbsp;&nbsp; **[spock](cli/SPOCK.md)** - Custom configure world's best logical & multi-master [Postgres](https://postgresql.org) extension
 
 <img src=img/localhost.png width=30>&nbsp;&nbsp; **[localhost](cli/LOCALHOST.md)** - Create a localhost test cluster
 
