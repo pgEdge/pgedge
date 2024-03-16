@@ -6,7 +6,7 @@ Our Distributed Multi-master Postgres runs by default in a sandbox & nicely on v
 Learn more [about](https://pgedge.com/company) our sponsor or try our free cloud [Developer Edition](https://www.pgedge.com/get-started/cloud) to setup a global managed cluster in less than 90 seconds.  Also check out our [Docker](https://github.com/pgEdge/pgedge-docker/blob/main/README.md) or [K8's Helm](https://github.com/pgEdge/pgedge-helm/blob/main/examples/README.md) examples.  
 
 
-## Start by installling CLI on a single node and then running below [examples](#cli-examples)
+## Start by installling CLI on a single node and then running [below examples](#cli-examples)
 <details>
 <summary>Node Pre-Reqs</summary>
 
@@ -25,19 +25,16 @@ Learn more [about](https://pgedge.com/company) our sponsor or try our free cloud
 python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.py)"
 ```
 
-## Or use our Cluster tutorials:
-###   [Virtual Machines](cli/tutorials/vm-cluster.md) Tutorial
-###   [Localhost](cli/tutorials/localhost-cluster.md) Tutorial
+## Or try our <img src=img/vm.png width=20>&nbsp;[Virtual Machines](cli/tutorials/vm-cluster.md) or <img src=img/localhost.png width=20>&nbsp;[Localhost](cli/tutorials/localhost-cluster.md) Tutorials.
 
-
-## Featured open source Extensions
+## Learn more about our featured open source Extensions
 #####  <img src=img/spock.png height=30> **[spock](https://github.com/pgedge/spock)** - Multi-master w/ Conflict Resolution, Auto DDL and Delta Apply
 
 ##### <img src=img/snowflake.png height=30> **[snowflake-sequences](https://github.com/pgedge/snowflake-sequences)** - Sequences that are as unique as snowflakes
 
 ##### <img src=img/pg-community.png height=30> **[Community Extensions](supported-extensions.md)** - All the best such as Postgis, pgVector, Citus... 
 
-## CLI Commands
+## Get a feel for our powerful CLI commands
 
 <img src=img/spock-cli.png width=30>&nbsp;&nbsp; **[spock](cli/SPOCK.md)** - Custom configure world's best logical & multi-master [Postgres](https://postgresql.org) extension
 
