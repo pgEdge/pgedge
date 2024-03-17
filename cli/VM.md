@@ -1,8 +1,6 @@
 # Convenience CLI to manage Virtual Machines
-Rapidly provision & control VM's.  We currently support
 
-&nbsp;&nbsp;
-<img src=../img/supported-providers.png width=500>
+<img src=../img/aws.png width=125><img src=../img/akamai.png width=125><img src=../img/equinix.png width=125><img src=../img/azure.png width=125><img src=../img/gcp.png width=125>
 
 ## Synopsis
     ./pgedge vm  <command> [parameters]
