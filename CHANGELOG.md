@@ -1,7 +1,7 @@
 # pgEdge Upstream Changes Log
 
-## v24.3.2 planned for 2024-03-19 #####
-Done so far:
+## v24.3.2 on 2024-03-17 #####
+  - fix 'update' command to work from 24.1.3 & forward
   - Large Object LOgical Replication (LOLOR) v1.0dev1
   - spock 4.0dev3 (evovled from former spock 3.3dev2)
   - spock 3.3.1 GA support (formerly spock 3.2.8)
@@ -10,9 +10,6 @@ Done so far:
   - 'localhost' commands split out from 'cluster'
   - improvements to 'cluster' usability (cady)
   - 'db', 'cluster' & 'spock' doc cleanups (cady)
-
-Planned:     
-  - fix 'update' command to work from 24.1.3 & forward
      
 ## v24.3.1 on 2024-03-07 ######
   - update 'spock32' to v3.2.8 on pg14/15/16
@@ -27,7 +24,6 @@ Planned:
   - update 'spock33' to v3.2dev2 on el8/el9/arm9 for pg15/16
   - fix messaging & setup issues
 
-
 ## v24.2.5 on 2024-03-01 #########
   - spock v3.3dev1 for pg15 & pg16
   - New '-3' binaries for pg15.6 & pg16.2 for spock33 compatibility
@@ -40,12 +36,10 @@ Planned:
       in favor of using './pgedge setup' command
   - experimental developer support for pg15 on OSX
 
-
 ## v24.2.4 on 2024-02-23 ############
   - spock v3.2.7 is available as default in pg15 & pg16
   - improve and document regressions tests (susan)
   - fix 'update' command to install/re-install ctlibs
-
 
 ## v24.2.3 on 2024-02-21 ############
   - make spock v3.2.7rc1 available for test
@@ -59,7 +53,6 @@ Planned:
   - 'install etcd' now also install golang & haproxy by default
   - remove staz 
   - deprecate postgREST
-
 
 ## v24.2.2 on 2024-02-14 ###########
   - add plv8 support for pg16 on el9 & arm9
