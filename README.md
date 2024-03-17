@@ -28,7 +28,7 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
 ## Or try our <img src=img/vm.png width=20>&nbsp;[Virtual Machines](cli/tutorials/vm-cluster.md) or <img src=img/localhost.png width=25>&nbsp;[Localhost](cli/tutorials/localhost-cluster.md) Tutorials.
 
 ## Learn more about our featured open source Extensions
-#####  <img src=img/spock.png height=30> **[spock](https://github.com/pgedge/spock)** - Multi-master w/ Conflict Resolution, Auto DDL and Delta Apply
+##### <img src=img/spock.png height=30> **[spock](https://github.com/pgedge/spock)** - Multi-master w/ Conflict Resolution, Auto DDL and Delta Apply
 
 ##### <img src=img/snowflake.png height=30> **[snowflake-sequences](https://github.com/pgedge/snowflake-sequences)** - Sequences that are as unique as snowflakes
 
@@ -36,21 +36,21 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
 
 ## Get a feel for our powerful CLI commands
 
-<img src=img/spock-cli.png width=30>&nbsp;&nbsp; **[spock](cli/SPOCK.md)** - Custom configure world's best logical & multi-master [Postgres](https://postgresql.org) extension
+##### <img src=img/spock-cli.png width=30>&nbsp;&nbsp; **[spock](cli/SPOCK.md)** - Custom configure world's best logical & multi-master [Postgres](https://postgresql.org) extension
 
-<img src=img/localhost.png width=30>&nbsp;&nbsp; **[localhost](cli/LOCALHOST.md)** - Create a localhost test cluster
+##### <img src=img/localhost.png width=30>&nbsp;&nbsp; **[localhost](cli/LOCALHOST.md)** - Create a localhost test cluster
 
-<img src=img/cluster.png width=30>&nbsp;&nbsp; **[cluster](cli/CLUSTER.md)** - Define & control a cluster of VM's or Metal
+##### <img src=img/cluster.png width=30>&nbsp;&nbsp; **[cluster](cli/CLUSTER.md)** - Define & control a cluster of VM's or Metal
 
-<img src=img/vm.png width=27>&nbsp;&nbsp; **[vm](cli/VM.md)** - Conveniece commands to provision VM's (presently supports Equinix, Akamai & AWS)
+##### <img src=img/vm.png width=27>&nbsp;&nbsp; **[vm](cli/VM.md)** - Convenience commands to manage Virtual Machines
 
-<img src=img/ace.png width=30>&nbsp;&nbsp; **[ace](cli/ACE.md)** - The Anti-Chaos Engine efficiently proves your remote tables are in sync
+##### <img src=img/ace.png width=30>&nbsp;&nbsp; **[ace](cli/ACE.md)** - The Anti-Chaos Engine efficiently proves your remote tables are in sync
 
-<img src=img/db-pg.png width=30>&nbsp;&nbsp; **[db](cli/DB.md)** - Configure and control postgres db's
+##### <img src=img/db-pg.png width=30>&nbsp;&nbsp; **[db](cli/DB.md)** - Configure and control postgres db's
 
-<img src=img/um.png width=30>&nbsp;&nbsp; **[um](cli/UM.md)** - Update manager commands
+##### <img src=img/um.png width=30>&nbsp;&nbsp; **[um](cli/UM.md)** - Update manager commands
 
-<img src=img/service.png width=25>&nbsp;&nbsp; **[service](cli/SERVICE.md)** - Service control commands
+##### <img src=img/service.png width=25>&nbsp;&nbsp; **[service](cli/SERVICE.md)** - Service control commands
 
 ## CLI Examples
 ##### Sandbox with latest *Postgres 16*, *Spock* & *Snowflake* installed into default *postgres* db
