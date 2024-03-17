@@ -25,7 +25,7 @@ Learn more about [our sponsor](https://pgedge.com/company) or try our free cloud
 python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.py)"
 ```
 
-## Or try our <img src=img/vm.png width=20>&nbsp;[Virtual Machines](cli/tutorials/vm-cluster.md) or <img src=img/localhost.png width=20>&nbsp;[Localhost](cli/tutorials/localhost-cluster.md) Tutorials.
+## Or try our <img src=img/vm.png width=20>&nbsp;[Virtual Machines](cli/tutorials/vm-cluster.md) or <img src=img/localhost.png width=25>&nbsp;[Localhost](cli/tutorials/localhost-cluster.md) Tutorials.
 
 ## Learn more about our featured open source Extensions
 #####  <img src=img/spock.png height=30> **[spock](https://github.com/pgedge/spock)** - Multi-master w/ Conflict Resolution, Auto DDL and Delta Apply
@@ -42,7 +42,7 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
 
 <img src=img/cluster.png width=30>&nbsp;&nbsp; **[cluster](cli/CLUSTER.md)** - Define & control a cluster of VM's or Metal
 
-<img src=img/vm.png width=30>&nbsp;&nbsp; **[vm](cli/VM.md)** -Conveniece commands to provision VM's (presently supports Equinix, Akamai & AWS)
+<img src=img/vm.png width=27>&nbsp;&nbsp; **[vm](cli/VM.md)** - Conveniece commands to provision VM's (presently supports Equinix, Akamai & AWS)
 
 <img src=img/ace.png width=30>&nbsp;&nbsp; **[ace](cli/ACE.md)** - The Anti-Chaos Engine efficiently proves your remote tables are in sync
 

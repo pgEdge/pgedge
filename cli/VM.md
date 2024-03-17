@@ -1,5 +1,8 @@
-# Convenience CLI for consistent provisioning and management of virtual machines
-Rapidly provision & control vm's (currently support AWS, Akamai-Linode, & Equinix)
+# Convenience CLI to manage Virtual Machines
+Rapidly provision & control VM's.  We currently support
+
+&nbsp;&nbsp;
+<img src=../img/supported-providers.png width=500>
 
 ## Synopsis
     ./pgedge vm  <command> [parameters]
@@ -7,7 +10,7 @@ Rapidly provision & control vm's (currently support AWS, Akamai-Linode, & Equini
 [**list-providers**](help/vm-list-providers.md)  - List supported cloud providers<br>
 [**list-airports**](help/vm-list-airports.md)    - List airport codes & corresponding provider regions<br>
 [**list-sizes**](help/vm-list-sizes.md)          - List available node sizes<br>
-[**list**](help/vm-lists.md)                     - List virtual machines<br>
+[**list**](help/vm-list.md)                     - List virtual machines<br>
 [**create**](help/vm-create.md)                  - Launch a VM<br>
 [**start**](help/vm-start.md)                    - Start a VM<br>
 [**stop**](help/vm-stop.md)                      - Stop a VM<br>
