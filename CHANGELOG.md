@@ -1,10 +1,11 @@
 # pgEdge Upstream Changes Log
 
 ## v24.3.2 on 2024-03-17 #####
-  - fix 'update' command to work from 24.1.3 & forward
+  - fix 'update' command to work from CLI v24.1.3 & forward
   - Large Object LOgical Replication (LOLOR) v1.0dev1
-  - spock 4.0dev3 (evovled from former spock 3.3dev2)
-  - spock 3.3.1 GA support (formerly spock 3.2.8)
+  - spock v4.0dev3 (evolved from v3.3dev2)
+  - default spock 32 --> 33
+  - spock v3.3.1 support (evolved from v3.2.8)
   - OSX arm64 experimental support for localhost dev/test
   - more backup/restore/pitr integration via backrest v2.50-3 
   - 'localhost' commands split out from 'cluster'
