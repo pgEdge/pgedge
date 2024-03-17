@@ -2,7 +2,7 @@
 
 ## v24.3.2 on 2024-03-17 #####
   - fix 'update' command to work from CLI v24.1.3 & forward
-  - Large Object LOgical Replication (LOLOR) v1.0dev1
+  - Large Object LOgical Replication: lolor v1.0dev1
   - spock v4.0dev3 (evolved from v3.3dev2)
   - default spock 32 --> 33
   - spock v3.3.1 support (evolved from v3.2.8)
@@ -10,7 +10,7 @@
   - more backup/restore/pitr integration via backrest v2.50-3 
   - 'localhost' commands split out from 'cluster'
   - improvements to 'cluster' usability (cady)
-  - 'db', 'cluster' & 'spock' doc cleanups (cady)
+  - 'db', 'cluster', 'spock', &'vm' doc cleanups (cady)
      
 ## v24.3.1 on 2024-03-07 ######
   - update 'spock32' to v3.2.8 on pg14/15/16
