@@ -4,7 +4,7 @@
 ## DESCRIPTION
     Create a local cluster. Each node will be located in the cluster/<cluster_name>/<node_name> directory. Each database will have a different port. 
 
-Example: cluster local-create demo 3 lcusr lcpasswd 16 6432 lcdb
+Example: localhost cluster-create demo 3 -U lcusr -P lcpasswd -d lcdb
  
 ## POSITIONAL ARGUMENTS
     CLUSTER_NAME
