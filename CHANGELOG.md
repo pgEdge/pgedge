@@ -1,5 +1,11 @@
 # pgEdge Upstream Changes Log
 
+## v24.4.0 on 2024-03-21 #####
+  - spock v4.0dev4
+     + logical clock
+     + unique 16-bit generated node id's
+     + repair mode for transactions
+
 ## v24.3.2 on 2024-03-17 #####
   - fix 'update' command to work from CLI v24.1.3 & forward
   - Large Object LOgical Replication: lolor v1.0dev1
