@@ -3,7 +3,6 @@
 ## v24.4.1 scheduled for around 2024-04-01 #####
 ### expected
   - refactor extension installation to support inactive & active
-  - refactor conf to be under data
 
 ### done so far
   - Enhancements to patroni and etcd scripts (PR #104 Ibrar)
