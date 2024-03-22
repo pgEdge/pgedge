@@ -1,9 +1,10 @@
 # pgEdge Upstream Changes Log
 
 ## v24.4.1 shceduled for around 2024-04-01 #####
-  - Fix to ACE to use first of possibly mulitple db's (PR #102 Tej)
   - Enhancements to patroni and etcd scripts (PR #104 Ibrar)
-  - Enhancements to backrest scripts (PR #105 Ibrar)
+  - Enhancements to backrest scripts (PR #103 Ibrar)
+  - Fix to ACE to use first of possibly mulitple db's (PR #102 Tej)
+  - Add auto-ddl tests (PR #101 Hayee)
     
 ## v24.4.0 on 2024-03-21 #####
   - spock v4.0dev4
