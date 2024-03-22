@@ -5,6 +5,14 @@
   - Enhancements to backrest scripts (PR #103 Ibrar)
   - Fix to ACE to use first of possibly mulitple db's (PR #102 Tej)
   - Add auto-ddl tests (PR #101 Hayee)
+  - detect osx-i386 (as unsupported)
+  - deprecated cruft cleanups
+    + no longer generate 'nc', 'nodectl', & 'ctl' symlinks
+    + stop generating versions24.sql & zip_bz2
+    + spock.set_readonly() --> db.set_readonly()
+    + drop support for 'install pgedge' in favor of 'setup'
+    + drop --tent & --ent unsupported flags
+    + drop --with (-cat, -backrest, & -postgrest) unsupported setup flags
     
 ## v24.4.0 on 2024-03-21 #####
   - spock v4.0dev4
