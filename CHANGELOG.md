@@ -1,6 +1,11 @@
 # pgEdge Upstream Changes Log
 
 ## v24.4.1 scheduled for around 2024-04-01 #####
+expected:
+  - refactor extension installation to support inactive & active
+  - refactor conf to be under data
+
+done so far:
   - Enhancements to patroni and etcd scripts (PR #104 Ibrar)
   - Enhancements to backrest scripts (PR #103 Ibrar)
   - Fix to ACE to use first of possibly mulitple db's (PR #102 Tej)
