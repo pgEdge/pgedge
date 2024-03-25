@@ -5,12 +5,13 @@
   - refactor extension installation to support inactive & active
 
 ### done so far
-  - Enhancements to patroni and etcd scripts (PR #104 Ibrar)
-  - Enhancements to backrest scripts (PR #103 Ibrar)
-  - Fix to ACE to use first of possibly mulitple db's (PR #102 Tej)
-  - Add auto-ddl tests (PR #101 Hayee)
+  - support for amd64 & arm64 components (works on el8 & el9)
+  - enhancements to backrest scripts (PR #103, #105-#109 Ibrar)
+  - enhancements to patroni and etcd scripts (PR #104 Ibrar)
+  - fix to ACE to use first of possibly mulitple db's (PR #102 Tej)
+  - add auto-ddl tests (PR #101 Hayee)
   - detect osx-i386 (as unsupported)
-  - deprecated cruft cleanups
+  - cruft cleanups
     + no longer generate 'nc', 'nodectl', & 'ctl' symlinks
     + stop generating versions24.sql & zip_bz2
     + spock.set_readonly() --> db.set_readonly()
