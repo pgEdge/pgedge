@@ -1,6 +1,6 @@
 # pgEdge Upstream Changes Log
 
-## v24.4.1 scheduled for around 2024-04-01 #####
+## v24.4.1 scheduled for around 2024-04-01 ##### (REL24_Q2)
 ### expected
   - refactor extension installation to support inactive & active
 
@@ -21,18 +21,18 @@
     + drop --with (-cat, -backrest, & -postgrest) unsupported setup flags
 
 
-## v24.3.3 on 2024-03-26 #####
+## v24.3.3 on 2024-03-26 ##### (REL24_Q1)
   - fix to ACE to use first of possibly mulitple db's (CP #)
   - doc fix for localhost (CP #)
 
 
-## v24.4.0 on 2024-03-21 #####
+## v24.4.0 on 2024-03-21 ##### (REL24_Q2)
   - spock v4.0dev4
      + logical clock
      + unique 16-bit generated node id's
      + repair mode for transactions
 
-## v24.3.2 on 2024-03-17 #####
+## v24.3.2 on 2024-03-17 ##### (REL24_Q1)
   - fix 'update' command to work from CLI v24.1.3 & forward
   - Large Object LOgical Replication: lolor v1.0dev1
   - spock v4.0dev3 (evolved from v3.3dev2)
