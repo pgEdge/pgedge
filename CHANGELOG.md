@@ -5,7 +5,8 @@
   - refactor extension installation to support inactive & active
 
 ### done so far
-  - support for amd64 & arm64 components (works on el8 & el9)
+  - doc fix for localhost (Cady)
+  - fix config.env in tests (Hayee)
   - enhancements to backrest scripts (PR #103, #105-#109 Ibrar)
   - enhancements to patroni and etcd scripts (PR #104 Ibrar)
   - fix to ACE to use first of possibly mulitple db's (PR #102 Tej)
@@ -18,7 +19,13 @@
     + drop support for 'install pgedge' in favor of 'setup'
     + drop --tent & --ent unsupported flags
     + drop --with (-cat, -backrest, & -postgrest) unsupported setup flags
-    
+
+
+## v24.3.3 on 2024-03-26 #####
+  - fix to ACE to use first of possibly mulitple db's (CP #)
+  - doc fix for localhost (CP #)
+
+
 ## v24.4.0 on 2024-03-21 #####
   - spock v4.0dev4
      + logical clock
