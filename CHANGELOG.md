@@ -21,7 +21,7 @@
     + drop --with (-cat, -backrest, & -postgrest) unsupported setup flags
 
 
-## v24.3.3 on 2024-03-26 ##### (REL24_Q1)
+## v24.3.4 on 2024-03-26 ##### (REL24_Q1)
   - fix to ACE to use first of possibly mulitple db's (CP #)
   - doc fix for localhost (CP #)
 
@@ -31,6 +31,9 @@
      + logical clock
      + unique 16-bit generated node id's
      + repair mode for transactions
+
+## v24.3.3 on 2024-03-20 ###### (REL24_Q1)
+  - block inappropriate components
 
 ## v24.3.2 on 2024-03-17 ##### (REL24_Q1)
   - fix 'update' command to work from CLI v24.1.3 & forward
