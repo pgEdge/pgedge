@@ -1,7 +1,6 @@
 # pgEdge Upstream Changes Log
 
 ## v24.4.1 scheduled for around 2024-03-28 ##### (REL24_Q2)
-  - refactor extension installation to support inactive & active
   - bump backrest to 2.51-1
   - bump patroni to 3.2.2.1-1
   - bump vector to 0.6.2-1
@@ -19,6 +18,8 @@
     + drop support for 'install pgedge' in favor of 'setup'
     + drop --tent & --ent unsupported flags
     + drop --with (-cat, -backrest, & -postgrest) unsupported setup flags
+  - wip: refactor extension installation to support inactive & active
+  - wip: VM cli to support Azure
 
 
 ## v24.3.4 on 2024-03-26 ##### (REL24_Q1)
