@@ -1,10 +1,10 @@
 # pgEdge Upstream Changes Log
 
-## v24.4.1 scheduled for around 2024-04-01 ##### (REL24_Q2)
-### expected
+## v24.4.1 scheduled for around 2024-03-28 ##### (REL24_Q2)
   - refactor extension installation to support inactive & active
-
-### done so far
+  - bump backrest to 2.51-1
+  - bump patroni to 3.2.2.1-1
+  - bump vector to 0.6.2-1
   - doc fix for localhost (Cady)
   - fix config.env in tests (Hayee)
   - enhancements to backrest scripts (PR #103, #105-#109 Ibrar)
