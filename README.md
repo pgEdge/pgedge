@@ -6,7 +6,7 @@ Our Distributed Multi-master Postgres runs by default in a sandbox & nicely on v
 Learn more about [our sponsor](https://pgedge.com/company) or try our free cloud [Developer Edition](https://www.pgedge.com/get-started/cloud) to setup a global managed cluster in less than 90 seconds.  Also check out our [Docker](https://github.com/pgEdge/pgedge-docker/blob/main/README.md) or [K8's Helm](https://github.com/pgEdge/pgedge-helm/blob/main/examples/README.md) examples.  
 
 
-## Start by installling CLI on a single node and then running [below examples](#cli-examples)
+##  Getting started 
 <details>
 <summary>Node Pre-Reqs</summary>
 
@@ -24,10 +24,12 @@ Learn more about [our sponsor](https://pgedge.com/company) or try our free cloud
 ```
 python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.py)"
 ```
+Start by installling CLI on a single node (as per above) and then looking next at [below examples](#cli-examples).
 
-## Or try our <img src=img/vm.png width=20>&nbsp;[Virtual Machines](cli/tutorials/vm-cluster.md) or <img src=img/localhost.png width=25>&nbsp;[Localhost](cli/tutorials/localhost-cluster.md) Tutorials.
+Or try our **Tutorials** using <img src=img/vm.png width=20>&nbsp;[Virtual Machines](cli/tutorials/vm-cluster.md) or <img src=img/localhost.png width=25>&nbsp;[Localhost Clusters](cli/tutorials/localhost-cluster.md).
 
-## Learn more about our featured open source Extensions
+
+## Learn more about our featured extensions
 ##### <img src=img/spock.png height=30> **[spock](https://github.com/pgedge/spock)** - Multi-master w/ Conflict Resolution, Auto DDL and Delta Apply
 
 ##### <img src=img/snowflake.png height=30> **[snowflake-sequences](https://github.com/pgedge/snowflake-sequences)** - Sequences that are as unique as snowflakes
