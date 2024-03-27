@@ -5,7 +5,7 @@
 - [Install the CLI](https://github.com/pgEdge/pgedge/tree/main?tab=readme-ov-file#getting-started) and make sure you look at the pre-reqs there & get both `password-less ssh` and `passwordless sudo` to localhost working first.
 
 
-## Create a localhost pgEdge cluster with spock and snowflake on each node
+## Create a localhost pgEdge cluster
 <pre>
 ./pgedge localhost cluster-create --name cl1 --nodes 2  --port1 6432
 </pre>
