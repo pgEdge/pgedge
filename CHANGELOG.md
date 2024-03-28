@@ -1,6 +1,7 @@
 # pgEdge Upstream Changes Log
 
 ## v24.4.1 scheduled for around 2024-03-28 ##### (REL24_Q2)
+  - fix ACE to handle list data type and refactored command names (PR #110 Cady & Tej)
   - bump backrest to 2.51-1
   - bump patroni to 3.2.2.1-1
   - bump vector to 0.6.2-1
