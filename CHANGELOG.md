@@ -1,6 +1,12 @@
 # pgEdge Upstream Changes Log
 
-## v24.4.1 scheduled for around 2024-03-28 ##### (REL24_Q2)
+## v24.4.2 scheduled for around 2024-04-03 ##### (REL24_Q2)
+  - backrest 2.51-1 enhancements (PR #111, Ibrar)
+  - bump lolor-pg16 to 1.0beta1
+  - fix harcoding of -U, -P, & -d parms in cli.py & setup.py
+
+
+## v24.4.1 on 2024-03-28 ##### (REL24_Q2)
   - fix ACE to handle list data type and refactored command names (PR #110 Cady & Tej)
   - bump backrest to 2.51-1
   - bump patroni to 3.2.2.1-1
