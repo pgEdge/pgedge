@@ -1,9 +1,14 @@
 # pgEdge Upstream Changes Log
 
-## v24.4.2 scheduled for around 2024-04-03 ##### (REL24_Q2)
+## v24.4.2 scheduled for 2024-04-01 ##### (REL24_Q2)
+  - cli's 'conf' & 'logs' directories moved under `data` so better for containers
   - backrest 2.51-1 enhancements (PR #111, Ibrar)
-  - bump lolor-pg16 to 1.0beta1
+  - fix lolor install & bump to 1.0beta1
   - fix harcoding of -U, -P, & -d parms in cli.py & setup.py
+
+  - wip: support running util.config_extension by default when no specific install script
+  - wip: refactor extension installation to support inactive & active
+  - wip: VM cli to support Azure
 
 
 ## v24.4.1 on 2024-03-28 ##### (REL24_Q2)
@@ -25,8 +30,6 @@
     + drop support for 'install pgedge' in favor of 'setup'
     + drop --tent & --ent unsupported flags
     + drop --with (-cat, -backrest, & -postgrest) unsupported setup flags
-  - wip: refactor extension installation to support inactive & active
-  - wip: VM cli to support Azure
 
 
 ## v24.3.4 on 2024-03-26 ##### (REL24_Q1)
