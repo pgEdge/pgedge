@@ -18,7 +18,7 @@ _ |Component|Github Project|Description
 <img src=img/backrest.png height=25 width=25> | backrest | [pgbackrest/pgbackrest](https://github.com/pgbackrest/pgbackrest) | Reliable backup & restore
 <img src=img/timescaledb.png height=25 width=25> | timescale | [timescaledb/timescale](https://github.com/timescaledb/timescale) | Time series data
 <img src=img/whatif.png height=25 width=25> | hypopg | [hypopg/hypopg](https://github.com/hypopg/hypopg) | Hypothetical index evaluation
-<img src=img/jan.png height=25 width=auto> | plprofiler | [pgedge/plrofiler](https://github.com/pgedge/plprofiler) | Stored procedure profiler 
+<img src=img/jan.png height=25 width=auto> | plprofiler | [bigsql/plrofiler](https://github.com/bigsql/plprofiler) | Stored procedure profiler 
 <img src=img/whatif.png height=25 width=25> | pldebugger | [enterprisedb/pldebugger ](https://github.com/enterprisedb/pldebugger) | Stored procedure debugger
 
 
