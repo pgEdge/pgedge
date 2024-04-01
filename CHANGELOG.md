@@ -6,7 +6,7 @@
 
 
 ## v24.4.2 on 2024-04-01 ##### (REL24_Q2)
-  - enhance postgis install st support active.inactiev
+  - enhance postgis install to support active & inactive
   - cli's 'conf' & 'logs' directories moved under `data` so better for containers
   - backrest 2.51-1 enhancements (PR #111, Ibrar)
   - fix lolor install & bump to 1.0beta1
