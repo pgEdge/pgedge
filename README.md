@@ -15,6 +15,7 @@ Learn more about [our sponsor](https://pgedge.com/company) or try our free cloud
   - Python 3.9 on EL8, EL9, SLE-15, & Amazon Linux 2023
   - Python 3.10 on Ubuntu 22.04
   - Python 3.11 on OSX arm64 (experimental)
+  - Python 3.12 on Ubuntu 24.04 (experimental)
   - Python 3.12 on Fedora 39 (experimental)
 
 - optional: config [password-less sudo](http://lussier.io/index.php/2023/04/07/passwordless-sudo/) if you want to autostart components with systemctl
@@ -34,7 +35,7 @@ Or try our **Tutorials** using <img src=img/vm.png width=20>&nbsp;[Virtual Machi
 
 ##### <img src=img/snowflake.png height=30> **[snowflake-sequences](https://github.com/pgedge/snowflake-sequences)** - Sequences that are as unique as snowflakes
 
-##### <img src=img/pg-community.png height=30> **[Community Extensions](supported-extensions.md)** - All the best such as Postgis, pgVector, Citus... 
+##### <img src=img/pg-community.png height=30> **[Supported Extensions](supported-extensions.md)** - All the best such as Postgis, pgVector, Citus... 
 
 ## Get a feel for our powerful CLI commands
 
