@@ -1,12 +1,17 @@
 # pgEdge Upstream Changes Log
 
-## v24.4.3 planned for approx 2024-04-08 ##### (REL24_Q2)
-  - refactor remaining extension installations to support inactive & active
+## v24.4.4 planned for approx 2024-04-08 ##### (REL24_Q2)
+  - refactor remaining extension installations w extensions metadata
   - VM cli to support Azure
+
+## v24.4.3 on 2024-04-08 ##### (REL24_Q2)
+  - fix regression in setup where not preload spock
+  - fix pgXX --rm-data to leave metadata & logs
+  - enhance orafce, snowflake & foslots installs w extensions metadata
 
 
 ## v24.4.2 on 2024-04-01 ##### (REL24_Q2)
-  - enhance postgis install to support active & inactive
+  - enhance postgis install w extensions metadata
   - cli's 'conf' & 'logs' directories moved under `data` so better for containers
   - backrest 2.51-1 enhancements (PR #111, Ibrar)
   - fix lolor install & bump to 1.0beta1
