@@ -4,7 +4,7 @@
   - refactor remaining extension installations w extensions metadata
   - VM cli to support Azure
 
-## v24.4.3 on 2024-04-08 ##### (REL24_Q2)
+## v24.4.3 on 2024-04-02 ##### (REL24_Q2)
   - fix regression in setup where not preload spock
   - fix pgXX --rm-data to leave metadata & logs
   - enhance orafce, snowflake & foslots installs w extensions metadata
