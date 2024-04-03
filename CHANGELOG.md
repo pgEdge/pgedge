@@ -1,6 +1,7 @@
 # pgEdge Upstream Changes Log
 
 ## v24.4.4 planned for approx 2024-04-08 ##### (REL24_Q2)
+  - pause replication in ACE during repair transactions (PR #120, Tej)
   - refactor remaining extension installations w extensions metadata
   - VM cli to support Azure
   - Adding hints to spock node-create and sub-create (PR #119, Moiz)
