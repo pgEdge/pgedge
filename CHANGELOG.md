@@ -3,6 +3,9 @@
 ## v24.4.4 planned for approx 2024-04-08 ##### (REL24_Q2)
   - refactor remaining extension installations w extensions metadata
   - VM cli to support Azure
+  - Adding hints to spock node-create and sub-create (PR #119, Moiz)
+  - fix ACE spock-diff and schema-diff
+
 
 ## v24.4.3 on 2024-04-02 ##### (REL24_Q2)
   - fix regression in setup where not preload spock
