@@ -1,16 +1,17 @@
 # pgEdge Upstream Changes Log
 
-## v24.4.4 planned for approx 2024-04-08 ##### (REL24_Q2)
-done so far:
+## v24.4.5 planned for approx 2024-04-12 ##### (REL24_Q2)
+planned:
+  - refactor remaining extension installations w extensions metadata
+  - VM cli to support Azure
+
+## v24.4.4 on 2024-04-05 ##### (REL24_Q2)
+  - VM supports cluster-define for eqn, akm, aws
   - fix regression in 'update' command
   - snowflake bumped to 2.0
   - pause replication in ACE during repair transactions (PR #120, Tej)
   - Adding hints to spock node-create and sub-create (PR #119, Moiz)
   - fix ACE spock-diff and schema-diff
-
-planned:
-  - refactor remaining extension installations w extensions metadata
-  - VM cli to support Azure
 
 
 ## v24.4.3 on 2024-04-02 ##### (REL24_Q2)
