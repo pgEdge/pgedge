@@ -6,7 +6,8 @@ planned:
   - VM cli to support Azure
 
 ## v24.4.4 on 2024-04-05 ##### (REL24_Q2)
-  - VM supports cluster-define for eqn, akm, aws
+  - support vm.cluster-define() for eqn, akm, aws
+  - add tests cases for DB (PR #121 Hayee/Susan)
   - fix regression in 'update' command
   - snowflake bumped to 2.0
   - pause replication in ACE during repair transactions (PR #120, Tej)
