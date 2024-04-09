@@ -1,8 +1,8 @@
 # pgEdge Upstream Changes Log
 
 ## v24.4.5 on 2024-04-10 ##### (REL24_Q2)
-  - bump spock33 to 3.3.2 (auto dll fix)
-  - more backrest improvements (PR #122 Ibrar)
+  - bump spock33 to 3.3.2 (auto dll fix AsifR)
+  - pgbackrest updated cron jobs for clarity and maintainability (PR #122 Ibrar)
 
 ## v24.4.4 on 2024-04-05 ##### (REL24_Q2)
   - support vm.cluster-define() for eqn, akm, aws
