@@ -1,10 +1,8 @@
 # pgEdge Upstream Changes Log
 
-## v24.4.5 planned for approx 2024-04-12 ##### (REL24_Q2)
-planned:
-  - refactor remaining extension installations w extensions metadata
-  - VM cli to support Azure
-  - new cluster.set-firewalld() command that only allows for 5432 to fellow nodes
+## v24.4.5 on 2024-04-10 ##### (REL24_Q2)
+  - bump spock33 to 3.3.2 (auto dll fix)
+  - more backrest improvements (PR #122 Ibrar)
 
 ## v24.4.4 on 2024-04-05 ##### (REL24_Q2)
   - support vm.cluster-define() for eqn, akm, aws
