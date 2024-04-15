@@ -1,9 +1,18 @@
 # pgEdge Upstream Changes Log
 
+## v24.4.6 on 2024-04-20 ##### (REL24_Q2)
+  - more extensions metadata fixes
+  - bump spock 33 to 3.3.3 (more auto ddl Asif R)
+
+## v24.3.5 on 2024-04-15 ##### (REL24_Q1)
+  - bump spock33 to 3.3.2 (cascade truncate fix AsifR)
+
+
 ## v24.4.5 on 2024-04-10 ##### (REL24_Q2)
   - bump spock33 to 3.3.2 (cascade truncate fix AsifR)
   - pgbackrest updated cron jobs for clarity and maintainability (PR #122 Ibrar)
   - bump spock 40 to dev5
+
 
 ## v24.4.4 on 2024-04-05 ##### (REL24_Q2)
   - support vm.cluster-define() for eqn, akm, aws
