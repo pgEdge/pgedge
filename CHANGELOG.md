@@ -6,6 +6,7 @@
     + readonly, vector, curl, plprofiler, pldebugger
     + citus, plv8, timescaledb, hypopg, foslots
   - ACE regression testing & logging
+  
   still to do:
   - fix for 'remove' extension to just drop shared-preload lib
   - support 'install extension --disabled'
