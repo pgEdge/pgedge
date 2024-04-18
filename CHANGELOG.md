@@ -6,10 +6,11 @@
     + readonly, vector, curl, plprofiler, pldebugger
     + citus, plv8, timescaledb, hypopg, foslots
   - ACE regression testing & logging
+  - support 'um install extension --active=False'
+  - support 'service enable/disable extension'
   
   still to do:
   - fix for 'remove' extension to just drop shared-preload lib
-  - support 'install extension --disabled'
   - support 'setup --extensions-disabled'
   - bump spock 33 to 3.3.3 (more auto ddl Asif R)
 
