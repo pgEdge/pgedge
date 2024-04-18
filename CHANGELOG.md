@@ -6,7 +6,7 @@
     + readonly, vector, curl, plprofiler, pldebugger
     + citus, plv8, timescaledb, hypopg, foslots
   - ACE regression testing & logging
-  - support 'um install extension --active=False'
+  - support 'um install extension --active=False' for disbaled extension
   - support 'service enable/disable extension'
   
   still to do:
