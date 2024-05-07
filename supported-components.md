@@ -1,5 +1,5 @@
 
-## pgEdge Supported Applications & Extensions:
+## pgEdge Supported Components:
 
 _ |Component|Github Project|Description
 ---|---|---|---|

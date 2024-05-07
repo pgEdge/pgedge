@@ -35,7 +35,7 @@ Start by installling CLI on a single node (as per above) and then looking next a
 
 ##### <img src=img/snowflake.png height=30> **[snowflake-sequences](https://github.com/pgedge/snowflake-sequences)** - Sequences that are as unique as snowflakes
 
-##### <img src=img/pg-community.png height=30> **[Supported Extensions](supported-extensions.md)** - All the best such as Postgis, pgVector, Citus... 
+##### <img src=img/pg-community.png height=30> **[Supported Components](supported-components.md)** - All the best such as pg12-17, Postgis, pgVector, Citus... 
 
 ## Get a feel for our powerful CLI commands
 
