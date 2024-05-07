@@ -3,7 +3,7 @@
 
 _ |Component|Github Project|Description
 ---|---|---|---|
-<img src=img/spock.png height=25 width=25> | spock | [pgedge/spock](https://github.com/pgedge/spock/tags)&nbsp;&nbsp;v3.3.2&nbsp;&nbsp;10-Jul | Multi-master w/ conflict resolution
+<img src=img/spock.png height=25 width=25> | spock | [pgedge/spock](https://github.com/pgedge/spock/tags)&nbsp;&nbsp;v3.3.2&nbsp;&nbsp;5-Apr | Multi-master w/ conflict resolution
 <img src=img/snowflake.png height=25 width=25> | snowflake | [pgedge/snowflake](https://github.com/pgedge/snowflake/tags)&nbsp;&nbsp;v2.0&nbsp;&nbsp;3-Apr | Sequences unique like snowflakes
 <img src=img/vector.png height=25 width=25> | vector | [pgvector/pgvector](https://github.com/pgvector/pgvector/tags)&nbsp;&nbsp;v0.7.0&nbsp;&nbsp;7-May | Nearest-neighbor similarity searching
 <img src=img/postgis.png height=25 width=25> | postgis | [postgis/postgis](https://github.com/postgis/postgis/tags)&nbsp;&nbsp;v3.4.2&nbsp;&nbsp;8-Feb | Geospatial Extension
