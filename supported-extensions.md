@@ -13,10 +13,10 @@ _ |Component|Github Project|Description
 <img src=img/v8.png height=25 width=25> | plv8 | [plv8/plv8](https://github.com/plv8/plv8/tags)&nbsp;&nbsp;v3.3.2&nbsp;&nbsp;10-Jul | Javascript procedural language powered by V8
 <img src=img/partman.png height=25 width=25> | partman | [pgpartman/pg_partman](https://github.com/pgpartman/pg_partman/tags)&nbsp;&nbsp;v3.3.2&nbsp;&nbsp;10-Jul | Partition management
 <img src=img/hintplan.png height=25 width=25> | hintplan | [osscdb/pg_hintplan](https://github.com/ossc-db/pg_hint_plan/tags) | Oracle style hints for query optimization
-<img src=img/wal2json.png height=25 width=25> | wal2json | [eulerto/wal2json](https://github.com/eulerto/wal2json/tags) | Change data capture
-<img src=img/pgcat.png height=25 width=25> | cat | [postgresml/pgcat](https://github.com/postgresml/pgcat/tags) | Nextgen pooler & proxy
-<img src=img/backrest.png height=25 width=25> | backrest | [pgbackrest/pgbackrest](https://github.com/pgbackrest/pgbackrest)&nbsp;&nbsp;v3.3.2&nbsp;&nbsp;10-Jul | Reliable backup & restore
-<img src=img/timescaledb.png height=25 width=25> | timescale | [timescaledb/timescale](https://github.com/timescaledb/timescale/tags)&nbsp;&nbsp;10-Jul&nbsp;&nbsp;v1.2.3 | Time series data
+<img src=img/wal2json.png height=25 width=25> | wal2json | [eulerto/wal2json](https://github.com/eulerto/wal2json/tags)&nbsp;&nbsp;v3.3.2&nbsp;&nbsp;10-Jul | Change data capture
+<img src=img/pgcat.png height=25 width=25> | cat | [postgresml/pgcat](https://github.com/postgresml/pgcat/tags)&nbsp;&nbsp;v1.1.1&nbsp;&nbsp;1-Aug | Nextgen pooler & proxy
+<img src=img/backrest.png height=25 width=25> | backrest | [pgbackrest/pgbackrest](https://github.com/pgbackrest/pgbackrest/tags)&nbsp;&nbsp;v3.3.2&nbsp;&nbsp;10-Jul | Reliable backup & restore
+<img src=img/timescaledb.png height=25 width=25> | timescale | [timescaledb/timescale](https://github.com/timescale/timescaledb/tags)&nbsp;&nbsp;20-Feb&nbsp;&nbsp;v2.14.2 | Time series data
 <img src=img/whatif.png height=25 width=25> | hypopg | [hypopg/hypopg](https://github.com/hypopg/hypopg/tags)&nbsp;&nbsp;v1.4.1&nbsp;&nbsp;1-May-24 | Hypothetical index evaluation
 <img src=img/jan.png height=25 width=auto> | plprofiler | [bigsql/plrofiler](https://github.com/bigsql/plprofiler/tags)&nbsp;&nbsp;v4.2.4&nbsp;&nbsp;9-Sep | Stored procedure profiler 
 <img src=img/whatif.png height=25 width=25> | pldebugger | [enterprisedb/pldebugger ](https://github.com/enterprisedb/pldebugger/tags)&nbsp;&nbsp;v1.5&nbsp;&nbsp;10-Jul-22 | Stored procedure debugger
