@@ -15,7 +15,7 @@ _ |Component|Github Project|Description
 <img src=img/wal2json.png height=25 width=25> | wal2json | [eulerto/wal2json](https://github.com/eulerto/wal2json/tags)&nbsp;&nbsp;v2.6&nbsp;&nbsp;9-May | Change data capture
 <img src=img/pgcat.png height=25 width=25> | cat | [postgresml/pgcat](https://github.com/postgresml/pgcat/tags)&nbsp;&nbsp;v1.1.1&nbsp;&nbsp;1-Aug | Nextgen pooler & proxy
 <img src=img/backrest.png height=25 width=25> | backrest | [pgbackrest/pgbackrest](https://github.com/pgbackrest/pgbackrest/tags)&nbsp;&nbsp;v2.51&nbsp;&nbsp;24-Mar | Reliable backup & restore
-<img src=img/timescaledb.png height=25 width=25> | timescale | [timescaledb/timescale](https://github.com/timescale/timescaledb/tags)&nbsp;&nbsp;8-May&nbsp;&nbsp;v2.14.2 | Time series data
+<img src=img/timescaledb.png height=25 width=25> | timescale | [timescaledb/timescale](https://github.com/timescale/timescaledb/tags)&nbsp;&nbsp;9-May&nbsp;&nbsp;v2.14.2 | Time series data
 <img src=img/whatif.png height=25 width=25> | hypopg | [hypopg/hypopg](https://github.com/hypopg/hypopg/tags)&nbsp;&nbsp;v1.4.1&nbsp;&nbsp;9-May | Hypothetical index evaluation
 <img src=img/jan.png height=25 width=auto> | plprofiler | [bigsql/plrofiler](https://github.com/bigsql/plprofiler/tags)&nbsp;&nbsp;v4.2.4&nbsp;&nbsp;9-Sep | Stored procedure profiler 
 <img src=img/whatif.png height=25 width=25> | pldebugger | [enterprisedb/pldebugger ](https://github.com/enterprisedb/pldebugger/tags)&nbsp;&nbsp;v1.5&nbsp;&nbsp;10-Jul-22 | Stored procedure debugger
