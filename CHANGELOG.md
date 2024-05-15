@@ -1,21 +1,21 @@
 # pgEdge Upstream Changes Log
 
-## v24.4.6 tentative scheduled on 2024-04-30 ##### (REL24_Q2)
-  - extensions metadata fixes
-    + cron, audit, partman, hintplan, wal2json
-    + readonly, vector, curl, plprofiler, pldebugger
-    + citus, plv8, timescaledb, hypopg, foslots
-  - ACE regression testing
-
-  Still to do:
-  - bump spock 33 to 3.3.3 (more auto ddl Asif R)
-  
-  Deffered to dev:
+## v24.5.1 on 2024-05-16 ##### (REL24_Q2)
   - ACE uses revised CLI logging 
   - fix for 'remove' extension to just drop shared-preload lib
   - support 'setup --extensions-disabled'
   - support 'um install extension --active=False' for disabled extension
   - support 'service enable/disable extension'
+
+
+## v24.4.6 on 2024-05-09 ##### (REL24_Q2)
+  - extensions metadata fixes
+    + cron, audit, partman, hintplan, wal2json
+    + readonly, vector, curl, plprofiler, pldebugger
+    + citus, plv8, timescaledb, hypopg, foslots
+  - ACE regression testing
+  - bump spock 33 to 3.3.3 (more auto ddl Asif R)
+  
 
 ## v24.3.5 on 2024-04-15 ##### (REL24_Q1)
   - bump spock33 to 3.3.2 (cascade truncate & upgrade scripts fixes AsifR)
