@@ -1,10 +1,14 @@
 # pgEdge Upstream Changes Log
 
-## v24.5.1 on 2024-05-16 ##### (REL24_Q2)
+## WIP
+  - fix for 'remove' extension to just drop shared-preload lib and uninstall extension
+    
+## v24.5.1 on 2024-05-17 ##### (REL24_Q2)
+  - support for new cluster commands, add-node, remove-node, list-nodes (PR #152 Ibrar)
   - ACE uses revised CLI logging 
-  - fix for 'remove' extension to just drop shared-preload lib
-  - support 'setup --extensions-disabled'
-  - support 'um install extension --active=False' for disabled extension
+  - lots of regression testing improvements
+  - all supported extensions now use metadata (and can be used in containers)
+  - support 'um install extension1 extension2 extensionN --enable=False' for disabled extensions
   - support 'service enable/disable extension'
 
 
