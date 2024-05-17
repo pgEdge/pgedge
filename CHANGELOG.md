@@ -5,11 +5,11 @@
     
 ## v24.5.1 on 2024-05-17 ##### (REL24_Q2)
   - support for new cluster commands, add-node, remove-node, list-nodes (PR #152 Ibrar)
-  - ACE uses revised CLI logging 
-  - lots of regression testing improvements
-  - all supported extensions now use metadata (and can be used in containers)
-  - support 'um install extension1 extension2 extensionN --enable=False' for disabled extensions
-  - support 'service enable/disable extension'
+  - ACE fixes for tables & columns with spaces &/or mixed case names (Tej & Cady)
+  - lots of regression testing improvements (Hayee & team)
+  - all supported extensions now use metadata (and can be used in containers) (Denis)
+  - support 'um install extension1 extension2 extensionN --enable=False' for disabled extensions (Denis)
+  - support 'service enable/disable extension' (Denis)
 
 
 ## v24.4.6 on 2024-05-09 ##### (REL24_Q2)
