@@ -26,7 +26,7 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
 ```
 Start by installling CLI on a single node (as per above) and then looking next at [below examples](#cli-examples).
 
-## Or try our **Tutorials** using <img src=img/vm.png width=20>&nbsp;[Virtual Machines](cli/tutorials/vm-cluster.md) or <img src=img/localhost.png width=25>&nbsp;[Localhost Clusters](cli/tutorials/localhost-cluster.md).
+## Or try our **Tutorials** using <img src=img/localhost.png width=25>&nbsp;[Localhost Clusters](cli/tutorials/localhost-cluster.md).
 
 
 ## Learn more about our featured extensions
@@ -43,8 +43,6 @@ Start by installling CLI on a single node (as per above) and then looking next a
 ##### <img src=img/localhost.png width=30>&nbsp;&nbsp; **[localhost](cli/LOCALHOST.md)** - Create a localhost test cluster
 
 ##### <img src=img/cluster.png width=30>&nbsp;&nbsp; **[cluster](cli/CLUSTER.md)** - Define & control a cluster of VM's or Metal
-
-##### <img src=img/vm.png width=27>&nbsp;&nbsp; **[vm](cli/VM.md)** - Convenience commands to manage Virtual Machines
 
 ##### <img src=img/ace.png width=30>&nbsp;&nbsp; **[ace](cli/ACE.md)** - The Anti-Chaos Engine efficiently proves your remote tables are in sync
 

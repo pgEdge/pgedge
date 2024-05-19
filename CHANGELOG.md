@@ -28,7 +28,6 @@
 
 
 ## v24.4.4 on 2024-04-05 ##### (REL24_Q2)
-  - support vm.cluster-define() for eqn, akm, aws
   - add tests cases for DB (PR #121 Hayee/Susan)
   - fix regression in 'update' command
   - snowflake bumped to 2.0
@@ -97,7 +96,7 @@
   - more backup/restore/pitr integration via backrest v2.50-3 
   - 'localhost' commands split out from 'cluster'
   - improvements to 'cluster' usability (cady)
-  - 'db', 'cluster', 'spock', &'vm' doc cleanups (cady)
+  - 'db', 'cluster', 'spock' doc cleanups (cady)
      
 ## v24.3.1 on 2024-03-07 ######
   - update 'spock32' to v3.2.8 on pg14/15/16
@@ -116,8 +115,6 @@
   - spock v3.3dev1 for pg15 & pg16
   - New '-3' binaries for pg15.6 & pg16.2 for spock33 compatibility
   - configurable extension meta data (1st step toward disabled extensions at setup time)
-  - VM CLI now supports AWS plus (EQUINIX-METAL & AKAMAI-LINODE)
-  - MULTICLOUD CLI now referred to as VM (virtual machine) CLI
   - rename cluster 'local-create' command to 'localhost-create'
   - rename cluster 'local-destroy' command to 'localhost-destroy'
   - stop using deprecated './pgedge install pgegde' command, in 'cluster localhost-create',
