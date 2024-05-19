@@ -6,6 +6,8 @@ _ |Component|Github Project|Description
 <img src=img/spock.png height=25 width=25> | spock | [pgedge/spock](https://github.com/pgedge/spock/tags)&nbsp;&nbsp;v3.3.3&nbsp;&nbsp;9-May | Multi-master w/ conflict resolution
 <img src=img/snowflake.png height=25 width=25> | snowflake | [pgedge/snowflake](https://github.com/pgedge/snowflake/tags)&nbsp;&nbsp;v2.0&nbsp;&nbsp;3-Apr | Sequences unique like snowflakes
 <img src=img/lola.png height=20 width=35> | lolor | [pgedge/lolor](https://github.com/pgedge/lolor/tags)&nbsp;&nbsp;v1.0&nbsp;&nbsp;9-May | Large Object LOgical Replication
+<img src=img/multicorn.png height=25 width=25> | multicorn2 | [pgsql-io/multicorn2](https://github.com/pgsql-io/multicorn2/tags)&nbsp;&nbsp;v3.0-dev1&nbsp;&nbsp;16-May | Extensions & FDW's enabler for python3
+<img src=img/cybertec.png height=25 width=25> | cybertec | [cybertec/permissions](https://github.com/cybertec-postgresql/pg_permissions/tags)&nbsp;&nbsp;v2.5&nbsp;&nbsp;16-May | Improved permissions views
 <img src=img/pgml.png height=25 width=25> | postgresml | [postgresml/postgresml](https://github.com/postgresml/postgresml/tags)&nbsp;&nbsp;v2.8.2&nbsp;&nbsp;16-May | GPU Powered Postgres AI
 <img src=img/vector.png height=25 width=25> | vector | [pgvector/pgvector](https://github.com/pgvector/pgvector/tags)&nbsp;&nbsp;v0.7.0&nbsp;&nbsp;9-May | Nearest-neighbor similarity searching
 <img src=img/postgis.png height=25 width=25> | postgis | [postgis/postgis](https://github.com/postgis/postgis/tags)&nbsp;&nbsp;v3.4.2&nbsp;&nbsp;8-Feb | Geospatial Extension
