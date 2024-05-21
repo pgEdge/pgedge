@@ -3,8 +3,8 @@
 
 _ |Component|Github Project|Description
 ---|---|---|---|
-<img src=img/spock.png height=25 width=25> | spock33 | [pgedge/spock](https://github.com/pgedge/spock/tags)&nbsp;&nbsp;v3.3.3&nbsp;&nbsp;9-May | Multi-master w/ conflict resolution
-<img src=img/spock.png height=25 width=25> | spock40 | [pgedge/spock](https://github.com/pgedge/spock/tags)&nbsp;&nbsp;v4.0.142&nbsp;&nbsp;21-May | NextGen Multi-master w/ conflict resolution
+<img src=img/spock33.png height=25 width=25> | spock33 | [pgedge/spock](https://github.com/pgedge/spock/tags)&nbsp;&nbsp;v3.3.3&nbsp;&nbsp;9-May | Multi-master w/ conflict resolution
+<img src=img/spock40.png height=25 width=25> | spock40 | [pgedge/spock](https://github.com/pgedge/spock/tags)&nbsp;&nbsp;v4.0.142&nbsp;&nbsp;21-May | NextGen Multi-master w/ conflict resolution
 <img src=img/snowflake.png height=25 width=25> | snowflake | [pgedge/snowflake](https://github.com/pgedge/snowflake/tags)&nbsp;&nbsp;v2.1&nbsp;&nbsp;21-May | Sequences unique like snowflakes
 <img src=img/lola.png height=20 width=25> | lolor | [pgedge/lolor](https://github.com/pgedge/lolor/tags)&nbsp;&nbsp;v1.2&nbsp;&nbsp;21-May | Large Object LOgical Replication
 <img src=img/multicorn.png height=25 width=25> | multicorn2 | [pgsql-io/multicorn2](https://github.com/pgsql-io/multicorn2/tags)&nbsp;&nbsp;v3.0-dev1&nbsp;&nbsp;16-May | Extensions & FDW's enabler for python3
