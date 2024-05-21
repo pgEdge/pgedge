@@ -67,13 +67,3 @@ Start by installling CLI on a single node (as per above) and then looking next a
 ```
 ./pgedge localhost cluster-create cl1 2 : cluster app-install cl1 northwind
 ```
-
-##### Create virtual machine (node) *n1* on **AWS** in Northen Virginia (iad) and *n2* on **Equinix Metal** in Dallas (dfw)
-```
-./pgedge vm create aws iad n1 : vm node-create eqnx dfw n2
-```
-
-##### Create a multi-cloud cluster *mach1*
-```
-./pgedge vm cluster-define mach1 "aws:iad:n1, eqnx:dfw:n2"
-```
