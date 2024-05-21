@@ -3,7 +3,14 @@
 ## WIP
   - fix for 'remove' extension to just drop shared-preload lib and uninstall extension
     
-## v24.5.1 on 2024-05-17 ##### (REL24_Q2)
+## v24.5.1 on 2024-05-21 to devel ##### (REL24_Q2)
+  - welcome newbs:
+    + pg17-beta1
+    + Spock 4.0 (spock40-4.0.142 for pg14+)
+    + Large Object LOgical Replication (lolor-1.2 for pg14+)
+  - bump snowflake to v2.1 for pg14+
+  - re-introduce prometheus postgres_exporter (prompgexp-0.15.0)
+    
   - support for new cluster commands, add-node, remove-node, list-nodes (PR #152 Ibrar)
   - ACE fixes for tables & columns with spaces &/or mixed case names (Tej & Cady)
   - lots of regression testing improvements (Hayee & team)
@@ -12,7 +19,7 @@
   - support 'service enable/disable extension' (Denis)
 
 
-## v24.4.6 on 2024-05-09 ##### (REL24_Q2)
+## v24.4.6 on 2024-05-09 to upstream ##### (REL24_Q2)
   - extensions metadata fixes
     + cron, audit, partman, hintplan, wal2json
     + readonly, vector, curl, plprofiler, pldebugger
@@ -21,11 +28,11 @@
   - bump spock 33 to 3.3.3 (more auto ddl Asif R)
   
 
-## v24.3.5 on 2024-04-15 ##### (REL24_Q1)
+## v24.3.5 on 2024-04-15 to download ##### (REL24_Q1)
   - bump spock33 to 3.3.2 (cascade truncate & upgrade scripts fixes AsifR)
 
 
-## v24.4.5 on 2024-04-10 ##### (REL24_Q2)
+## v24.4.5 on 2024-04-10 to upstream ##### (REL24_Q2)
   - bump spock33 to 3.3.2 (cascade truncate fix AsifR)
   - pgbackrest updated cron jobs for clarity and maintainability (PR #122 Ibrar)
   - bump spock 40 to dev5
