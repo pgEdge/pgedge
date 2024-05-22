@@ -1,7 +1,11 @@
 # pgEdge Upstream Changes Log
+    
+## v24.5.2 on 2024-05-22 to devel ##### (REL24_Q2)
+  - bump spock33 to 3.3.4
+  - default spock.conflict_logging_level to DEBUG for 
+  - more auto_ddl regressions tests
+  - WIP for seting up disabled --extensions
 
-## WIP
-  - fix for 'remove' extension to just drop shared-preload lib and uninstall extension
     
 ## v24.5.1 on 2024-05-21 to devel ##### (REL24_Q2)
   - welcome newbs:
