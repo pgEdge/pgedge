@@ -1,13 +1,22 @@
-# pgEdge Upstream Changes Log
+# pgEdge Changes Log
     
-## v24.5.2 on 2024-05-22 to devel ##### (REL24_Q2)
-  - bump spock33 to 3.3.4
-  - default spock.conflict_logging_level to DEBUG for 
-  - more auto_ddl regressions tests
-  - WIP for seting up disabled --extensions
+## WIP v24.05.28 to devel - REL24_Q2
+  - multicorn: 3.0beta1
+  - pgml
+  - permissions
 
     
-## v24.5.1 on 2024-05-21 to devel ##### (REL24_Q2)
+## v24.05.23 to devel - REL24_Q2
+  - spock33:  v3.3.4
+  - spock40: v4.0.144
+  - lolor: v1.2
+  - snowflake: v2.1
+  - default spock.conflict_logging_level to DEBUG for 
+  - more auto_ddl regressions tests
+  - setting up disabled --extensions
+
+    
+## v24.05.21 to devel - REL24_Q2
   - welcome newbs:
     + pg17-beta1
     + Spock 4.0 (spock40-4.0.142 for pg14+)
