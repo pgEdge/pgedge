@@ -34,8 +34,8 @@ _ |Component|Github Project|Description
 
 _ |Component|Github Project|Description
 ---|---|---|---|
-<img src=img/spock40.png height=25 width=25> | spock40 | [pgedge/spock](https://github.com/pgedge/spock/tags)&nbsp;&nbsp; v4.0rc1 | NextGen Multi-master w/ lots more greatness
+<img src=img/spock40.png height=25 width=25> | spock40 | [pgedge/spock](https://github.com/pgedge/spock/tags)&nbsp;&nbsp; v4.0 | NextGen Multi-master w/ lots more greatness
 <img src=img/postgresml.png height=25 width=25> | postgresml | [postgresml/postgresml](https://github.com/postgresml/postgresml/tags)&nbsp;&nbsp;v2.8.2&nbsp;&nbsp; | GPU Powered Postgres AI
-<img src=img/multicorn.png height=25 width=25> | multicorn2 | [pgsql-io/multicorn2](https://github.com/pgsql-io/multicorn2/tags)&nbsp;&nbsp;v3.0-dev2&nbsp;&nbsp; | Extensions & FDW's enabler for python3
+<img src=img/multicorn.png height=25 width=25> | multicorn2 | [pgsql-io/multicorn2](https://github.com/pgsql-io/multicorn2/tags)&nbsp;&nbsp;v3.0&nbsp;&nbsp; | Extensions & FDW's enabler for python3
 <img src=img/cybertec.png height=25 width=25> | permissions | [cybertec/permissions](https://github.com/cybertec-postgresql/pg_permissions/tags)&nbsp;&nbsp; | Improved permissions views
 <img src=img/pgmq.png height=25 width=25> | pgmq | [tembo-io/pgmq](https://github.com/tembo-io/pgmq/tags)&nbsp;&nbsp;v1.2.1&nbsp;&nbsp; | Message Queue w/ API parity SQS and RDSMQ
