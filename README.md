@@ -32,6 +32,8 @@ Start by installling CLI on a single node (as per above) and then looking next a
 ## Learn more about our featured extensions
 ##### <img src=img/spock.png height=30> **[spock](https://github.com/pgedge/spock)** - Multi-master w/ Conflict Resolution, Auto DDL and Delta Apply
 
+##### <img src=img/lola.png height=27> **[pgedge/lolor](https://github.com/pgedge/lolor)** - Large Object LOgical Replication
+
 ##### <img src=img/snowflake.png height=30> **[snowflake](https://github.com/pgedge/snowflake)** - Distribued sequences as unique as snowflakes
 
 ##### <img src=img/pg-community.png height=30> **[Supported Components](supported-components.md)** - All the best such as pg12-17, Postgis, pgVector, Citus... 
