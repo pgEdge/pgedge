@@ -1,29 +1,24 @@
 # pgEdge Changes Log
     
-## WIP v24.05.28 to devel - REL24_Q2
-  - multicorn: 3.0beta1
+## WIP v24.7.0 to devel - REL24_Q3
   - pgml
   - permissions
+  - set-user
+  - multicorn
 
-    
-## v24.05.23 to devel - REL24_Q2
-  - spock33:  v3.3.4
-  - spock40: v4.0.144
-  - lolor: v1.2
-  - snowflake: v2.1
+## WIP v24.6.6 (on 2017-06-10) to download - REL24_Q2
+  - tweaks to default to '-download' rather than upstream
+
+## v24.6.5 (on 2017-06-07) to devel & upstream - REL24_Q2
+  - spock40beta1 (runs in pg14 thru pg17)
+  - pg17beta1
+  - spock33  v3.3.4
+  - lolor v1.2 - supports pg_dump
+  - bump snowflake to v2.1 for pg14+
   - default spock.conflict_logging_level to DEBUG for 
   - more auto_ddl regressions tests
   - setting up disabled --extensions
-
-    
-## v24.05.21 to devel - REL24_Q2
-  - welcome newbs:
-    + pg17-beta1
-    + Spock 4.0 (spock40-4.0.142 for pg14+)
-    + Large Object LOgical Replication (lolor-1.2 for pg14+)
-  - bump snowflake to v2.1 for pg14+
   - re-introduce prometheus postgres_exporter (prompgexp-0.15.0)
-    
   - support for new cluster commands, add-node, remove-node, list-nodes (PR #152 Ibrar)
   - ACE fixes for tables & columns with spaces &/or mixed case names (Tej & Cady)
   - lots of regression testing improvements (Hayee & team)
