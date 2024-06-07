@@ -1,10 +1,11 @@
 # pgEdge Changes Log
     
 ## WIP v24.7.0 to devel - REL24_Q3
-  - pgml
-  - permissions
-  - set-user
-  - multicorn
+  - improvements to etcd & patroni for ultra HA & add-node
+  - new extensions:
+    + pgml & pgrx
+    - permissions & set_user (sudo)
+    - multicorn
 
 ## WIP v24.6.6 (on 2017-06-10) to download - REL24_Q2
   - tweaks to default to '-download' rather than upstream
