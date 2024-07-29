@@ -27,7 +27,6 @@ _ |Component|Github Project|Description
 <img src=img/backrest.png height=25 width=25> | backrest | [pgbackrest/pgbackrest](https://github.com/pgbackrest/pgbackrest/tags)&nbsp;&nbsp;v2.53&nbsp;&nbsp;29-Jul | Reliable backup & restore
 <img src=img/timescaledb.png height=25 width=25> | timescale | [timescaledb/timescale](https://github.com/timescale/timescaledb/tags)&nbsp;&nbsp;v2.15.3&nbsp;&nbsp;29-Jul | Time series data
 <img src=img/whatif.png height=25 width=25> | hypopg | [hypopg/hypopg](https://github.com/hypopg/hypopg/tags)&nbsp;&nbsp;v1.4.1&nbsp;&nbsp;9-May | Hypothetical index evaluation
-<img src=img/curl.png height=20 width=25> | curl | [rekgrpth/pg_curl](https://github.com/RekGRpth/pg_curl)&nbsp;&nbsp;v2.2&nbsp;&nbsp;16-May | cURL for interacting with JSON API's
 <img src=img/jan.png height=25 width=auto> | plprofiler | [bigsql/plrofiler](https://github.com/bigsql/plprofiler/tags)&nbsp;&nbsp;v4.2.4&nbsp;&nbsp;16-May | Stored procedure profiler 
 <img src=img/debugger.png height=25 width=25> | pldebugger | [enterprisedb/pldebugger ](https://github.com/enterprisedb/pldebugger/tags)&nbsp;&nbsp;v1.5&nbsp;&nbsp;16-May | Stored procedure debugger
 <img src=img/cybertec.png height=25 width=25> | permissions | [cybertec/permissions](https://github.com/cybertec-postgresql/pg_permissions/tags)&nbsp;&nbsp;v1.3&nbsp;&nbsp;29-Jul | Improved permissions views
