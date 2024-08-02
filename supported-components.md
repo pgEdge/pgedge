@@ -4,7 +4,7 @@
 ## Core extensions
 _ |Component|Github Project|Description
 ---|---|---|---|
-<img src=img/spock33.png height=25 width=25> | spock33 | [pgedge/spock](https://github.com/pgedge/spock/tags)&nbsp;&nbsp;v3.3.5&nbsp;&nbsp;7-Jun | Multi-master w/ conflict resolution
+<img src=img/spock40.png height=25 width=25> | spock40 | [pgedge/spock](https://github.com/pgedge/spock/tags)&nbsp;&nbsp; v4.0.1&nbsp;&nbsp;1-Aug | Multi-master w/ conflict resolution
 <img src=img/snowflake.png height=25 width=25> | snowflake | [pgedge/snowflake](https://github.com/pgedge/snowflake/tags)&nbsp;&nbsp;v2.1&nbsp;&nbsp;21-May | Sequences unique like snowflakes
 <img src=img/lola.png height=20 width=25> | lolor | [pgedge/lolor](https://github.com/pgedge/lolor/tags)&nbsp;&nbsp;v1.2&nbsp;&nbsp;21-May | Large Object LOgical Replication
 
@@ -12,7 +12,7 @@ _ |Component|Github Project|Description
 
 _ |Component|Github Project|Description
 ---|---|---|---|
-<img src=img/vector.png height=25 width=25> | vector | [pgvector/pgvector](https://github.com/pgvector/pgvector/tags)&nbsp;&nbsp;v0.7.1&nbsp;&nbsp;12-Jun | Nearest-neighbor similarity searching
+<img src=img/vector.png height=25 width=25> | vector | [pgvector/pgvector](https://github.com/pgvector/pgvector/tags)&nbsp;&nbsp;v0.7.3&nbsp;&nbsp;1-Aug | Nearest-neighbor similarity searching
 <img src=img/postgis.png height=25 width=25> | postgis | [postgis/postgis](https://github.com/postgis/postgis/tags)&nbsp;&nbsp;v3.4.2&nbsp;&nbsp;8-Feb | Geospatial Extension
 <img src=img/pgaudit.png height=25 width=25> | audit | [pgaudit/pgaudit](https://github.com/pgaudit/pgaudit/tags)&nbsp;&nbsp;v16.0&nbsp;&nbsp;14-Sep | Audit logging for compliance
 <img src=img/orafce.png height=25 width=25> | orafce | [orafce/orafce](https://github.com/orafce/orafce/tags)&nbsp;&nbsp;v4.10.3&nbsp;&nbsp;29-Jul | Oracle style built-in functions
@@ -36,7 +36,5 @@ _ |Component|Github Project|Description
 
 _ |Component|Github Project|Description
 ---|---|---|---|
-<img src=img/spock40.png height=25 width=25> | spock40 | [pgedge/spock](https://github.com/pgedge/spock/tags)&nbsp;&nbsp; v4.0 | NextGen Multi-master w/ lots more...
 <img src=img/postgresml.png height=25 width=25> | postgresml | [postgresml/postgresml](https://github.com/postgresml/postgresml/tags)&nbsp;&nbsp;v2.9.3&nbsp;&nbsp; | GPU Powered Postgres AI
 <img src=img/multicorn.png height=25 width=25> | multicorn2 | [pgsql-io/multicorn2](https://github.com/pgsql-io/multicorn2/tags)&nbsp;&nbsp;v3.0&nbsp;&nbsp; | Extensions & FDW enabler for python3
-<img src=img/pgmq.png height=25 width=25> | pgmq | [tembo-io/pgmq](https://github.com/tembo-io/pgmq/tags)&nbsp;&nbsp;v1.3 | Message Queue w/ API parity SQS and RDSMQ
