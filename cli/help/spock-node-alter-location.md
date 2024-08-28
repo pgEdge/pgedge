@@ -1,5 +1,5 @@
 ## SYNOPSIS
-    ./pgedge spock node-alter-location NODE_NAME LOCATION DB <flags>
+    ./pgedge spock node-alter-location NODE_NAME LOCATION DB
  
 ## DESCRIPTION
     Set location details for spock node.
@@ -8,8 +8,3 @@
     NODE_NAME
     LOCATION
     DB
- 
-## FLAGS
-    -p, --pg=PG
-    
-    

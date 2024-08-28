@@ -16,6 +16,3 @@ Example: spock sub-disable sub_n2n1 demo
     -i, --immediate=IMMEDIATE
         If False, sub will stop after the current transaction.
     
-    -p, --pg=PG
-    
-    

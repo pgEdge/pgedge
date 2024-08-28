@@ -9,7 +9,10 @@
     TABLE_NAME
  
 ## FLAGS
-    -b, --block_rows=BLOCK_ROWS
+    --dbname=DBNAME
+    
+    
+    --block_rows=BLOCK_ROWS
     
     
     -m, --max_cpu_ratio=MAX_CPU_RATIO
@@ -21,6 +24,12 @@
     -n, --nodes=NODES
     
     
-    -d, --diff_file=DIFF_FILE
+    --diff_file=DIFF_FILE
+    
+    
+    --batch_size=BATCH_SIZE
+    
+    
+    -q, --quiet=QUIET
     
     

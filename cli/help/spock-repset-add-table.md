@@ -27,6 +27,3 @@ Example: spock repset-add-table demo_repset 'public.*' demo
     -i, --include_partitions=INCLUDE_PARTITIONS
         include all partitions in replication.
     
-    -p, --pg=PG
-    
-    

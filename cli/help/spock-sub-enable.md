@@ -16,6 +16,3 @@ Example: spock sub-enable sub_n2n1 demo
     -i, --immediate=IMMEDIATE
         If False, sub will start after the current transaction.
     
-    -p, --pg=PG
-    
-    

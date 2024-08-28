@@ -11,6 +11,18 @@
     TABLE_NAME
  
 ## FLAGS
-    -d, --dry_run=DRY_RUN
+    --dbname=DBNAME
+    
+    
+    --dry_run=DRY_RUN
+    
+    
+    -q, --quiet=QUIET
+    
+    
+    -u, --upsert_only=UPSERT_ONLY
+    
+    
+    -g, --generate_report=GENERATE_REPORT
     
     

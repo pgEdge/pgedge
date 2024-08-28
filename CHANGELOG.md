@@ -1,4 +1,23 @@
 # pgEdge Changes Log
+
+## v24.08.8 to download - REL24_Q3
+  - CLI
+    - Ace fixes, including support for multiple databases and data types.
+    - Improvements to add node and remove node commands.
+    - Added support for setuser and permissions extensions.
+    - Updates to RPM packaging.
+  - spock 3.3.6-1
+    - Improvements to Auto DDL functionality.
+  - spock 4.0.1-1
+    - Enhanced Auto DDL support, including fixes for prepared statements, partition primary key replication sets, and table creation via EXPLAIN.
+    - Addressed limitations related to non-superuser operations.
+    - Updates to the upgrade script.
+    - Adding the repair mode function and exception table handling.
+  - lolor 1.2-1
+    - Fixed issues with shared preload libraries.
+  - snowflake 2.2-1
+    - Resolved issues with the Snowflake conversion function.
+    - Added upgrade support.
     
 ## WIP v24.7.0 to devel - REL24_Q3
   - improvements to etcd & patroni for ultra HA & add-node
