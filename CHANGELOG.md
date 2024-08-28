@@ -1,6 +1,6 @@
 # pgEdge Changes Log
 
-## v24.08.8 to download - REL24_Q3
+## v24.08.8 (on 2024-08-28) to download - REL24_Q3
   - CLI
     - Ace fixes, including support for multiple databases and data types.
     - Improvements to add node and remove node commands.
