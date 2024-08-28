@@ -6,7 +6,7 @@ Our enterprise-class packages run on all modern and popular Linux systems includ
 
 Download the RPM you'd like and then run the following command
 ```
-sudo rpm -ivh pgedge-pg16-amd64.rpm
+sudo dnf install ./pgedge-pg16-amd64.rpm
 ```
 
 | Package Name                               | Date Released |
@@ -17,7 +17,7 @@ sudo rpm -ivh pgedge-pg16-amd64.rpm
 # DEB's
 Download the DEB you'd like and then run the following command
 ```
-sudo dpkg pgedge-pg16-amd64.deb
+sudo apt-get install -f ./pgedge-pg16-amd64.deb
 ```
 
 | Package Name                               | Date Released |
