@@ -1,5 +1,5 @@
 ## SYNOPSIS
-    ./pgedge spock node-drop NODE_NAME DB <flags>
+    ./pgedge spock node-drop NODE_NAME DB
  
 ## DESCRIPTION
     Drop a spock node. 
@@ -11,8 +11,3 @@ Example: spock node-drop n1 demo
         The name of the node. Example: n1
     DB
         The name of the database. Example: demo
- 
-## FLAGS
-    -p, --pg=PG
-    
-    

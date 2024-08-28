@@ -2,7 +2,7 @@
     ./pgedge cluster replication-begin CLUSTER_NAME <flags>
  
 ## DESCRIPTION
-    Add all tables in the database to replication on every node
+    Add all tables in the database to replication on every node.
  
 ## POSITIONAL ARGUMENTS
     CLUSTER_NAME

@@ -4,7 +4,7 @@
 ## DESCRIPTION
     Create a JSON configuration file template that can be modified to fully define a remote cluster. 
 
-Example: cluster define-remote demo lcdb 3 lcusr lcpasswd 16 5432
+Example: cluster define-remote demo db 3 lcusr lcpasswd 16 5432
  
 ## POSITIONAL ARGUMENTS
     CLUSTER_NAME

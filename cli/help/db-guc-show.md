@@ -1,13 +1,8 @@
 ## SYNOPSIS
-    ./pgedge db guc-show GUC_NAME <flags>
+    ./pgedge db guc-show GUC_NAME
  
 ## DESCRIPTION
     Show GUC
  
 ## POSITIONAL ARGUMENTS
     GUC_NAME
- 
-## FLAGS
-    -p, --pg=PG
-    
-    

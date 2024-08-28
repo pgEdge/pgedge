@@ -2,12 +2,9 @@
     ./pgedge spock set-readonly <flags>
  
 ## DESCRIPTION
-    Turn PG read-only mode 'on' or 'off'.
+    DEPRECATED: use db.set_readonly() instead
  
 ## FLAGS
     -r, --readonly=READONLY
-    
-    
-    -p, --pg=PG
     
     

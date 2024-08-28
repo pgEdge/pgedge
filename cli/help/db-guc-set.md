@@ -1,5 +1,5 @@
 ## SYNOPSIS
-    ./pgedge db guc-set GUC_NAME GUC_VALUE <flags>
+    ./pgedge db guc-set GUC_NAME GUC_VALUE
  
 ## DESCRIPTION
     Set GUC
@@ -7,8 +7,3 @@
 ## POSITIONAL ARGUMENTS
     GUC_NAME
     GUC_VALUE
- 
-## FLAGS
-    -p, --pg=PG
-    
-    

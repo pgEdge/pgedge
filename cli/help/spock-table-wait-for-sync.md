@@ -1,5 +1,5 @@
 ## SYNOPSIS
-    ./pgedge spock table-wait-for-sync SUBSCRIPTION_NAME RELATION DB <flags>
+    ./pgedge spock table-wait-for-sync SUBSCRIPTION_NAME RELATION DB
  
 ## DESCRIPTION
     Pause until a table finishes synchronizing. 
@@ -13,8 +13,3 @@ Example: spock table-wait-for-sync sub_n2n1 mytable demo
         The name of a table. Example: mytable
     DB
         The name of the database. Example: demo
- 
-## FLAGS
-    -p, --pg=PG
-    
-    

@@ -2,11 +2,11 @@
     ./pgedge cluster command CLUSTER_NAME NODE CMD <flags>
  
 ## DESCRIPTION
-    Run './pgedge' commands on one or all of the nodes in a cluster. 
+    Run './pgedge' commands on one or all of the nodes in a cluster.
 This command requires a JSON file with the same name as the cluster to be in the cluster/<cluster_name>. 
 
 Example: cluster command demo n1 status
-Example: cluster command demo all spock repset-add-table default * lcdb
+Example: cluster command demo all spock repset-add-table default * db[0][name]
  
 ## POSITIONAL ARGUMENTS
     CLUSTER_NAME

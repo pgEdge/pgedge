@@ -16,6 +16,3 @@ Example: spock sequence-convert 'public.*' demo
     -t, --type=TYPE
     
     
-    -p, --pg=PG
-    
-    

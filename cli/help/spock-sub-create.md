@@ -30,6 +30,3 @@ Example: spock sub-create sub_n2n1 'host=10.1.2.5 port=5432 user=pgedge dbname=d
     -a, --apply_delay=APPLY_DELAY
         The amount of time to delay the replication.
     
-    -p, --pg=PG
-    
-    

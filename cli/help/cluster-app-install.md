@@ -11,6 +11,7 @@ Example: cluster app-install pgbench
     CLUSTER_NAME
         The name of the cluster.
     APP_NAME
+        The application name, pgbench or northwind.
  
 ## FLAGS
     -d, --database_name=DATABASE_NAME

@@ -9,6 +9,9 @@
     REPSET_NAME
  
 ## FLAGS
+    -d, --dbname=DBNAME
+    
+    
     -b, --block_rows=BLOCK_ROWS
     
     
@@ -19,5 +22,8 @@
     
     
     -n, --nodes=NODES
+    
+    
+    -q, --quiet=QUIET
     
     

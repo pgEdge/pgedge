@@ -13,9 +13,6 @@ Example: spock repset-remove-partition mytable demo --partition=mytable_202012
         The name of the database. Example: demo
  
 ## FLAGS
-    --partition=PARTITION
+    -p, --partition=PARTITION
         The name of the partition. If none is provided, it will remove all replicated partitions from the replication set. Example: mytable_202012
-    
-    --pg=PG
-    
     

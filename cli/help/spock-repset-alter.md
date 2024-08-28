@@ -25,6 +25,3 @@ Example: spock repset-alter demo_repset demo --replicate_truncate=False
     --replicate_truncate=REPLICATE_TRUNCATE
         For tables in this replication set, replicate truncate.
     
-    -p, --pg=PG
-    
-    
