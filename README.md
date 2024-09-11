@@ -12,10 +12,11 @@ Try our free [Cloud Developer Edition](https://www.pgedge.com/get-started/cloud)
 <summary>Node Pre-Reqs</summary>
 
 - Use a  non-root user from the command line
-- Tested with Python 3.9+ 
+- Tested with Python 3.9 & 3.10
   - Python 3.9 on EL8, EL9, SLE-15, & Amazon Linux 2023
   - Python 3.10 on Ubuntu 22.04
-  - Python 3.12 on Ubuntu 24.04 & Fedora 40
+  - *Experimental* on Python 3.11 on Debian 12
+  - *Experimental* on Python 3.12 on Ubuntu 24.04 & Fedora 40
 
 - optional: config [password-less sudo](http://lussier.io/index.php/2023/04/07/passwordless-sudo/) if you want to autostart components with systemctl
 - optional config [password-less ssh](http://lussier.io/index.php/2023/06/07/passwordless-ssh-to-localhost-2) to localhost for using `localhost cluster` commands
