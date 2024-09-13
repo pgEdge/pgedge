@@ -21,7 +21,7 @@ _ |Component|Github Project|Description
 <img src=img/citus.png height=25 width=25> | citus  | [citusdata/citus](https://github.com/citusdata/citus/tags)&nbsp;&nbsp;v12.1.5&nbsp;&nbsp;29-Jul | Sharded and/or Columnar distributed tables
 <img src=img/v8.png height=25 width=25> | plv8 | [plv8/plv8](https://github.com/plv8/plv8/tags)&nbsp;&nbsp;v3.2.2&nbsp;&nbsp;16-May | Javascript procedural language using V8 engine
 <img src=img/partman.png height=25 width=25> | partman | [pgpartman/pg_partman](https://github.com/pgpartman/pg_partman/tags)&nbsp;&nbsp;v5.1.0&nbsp;&nbsp;2-Apr | Partition management
-<img src=img/hintplan.png height=25 width=25> | hintplan | [osscdb/pg_hintplan](https://github.com/ossc-db/pg_hint_plan/tags)&nbsp;&nbsp;v1.6.0&nbsp;&nbsp;13-Sep | Oracle style query optimization hints
+<img src=img/hintplan.png height=25 width=25> | hintplan | [osscdb/pg_hintplan](https://github.com/ossc-db/pg_hint_plan/tags)&nbsp;&nbsp;v1.7.0&nbsp;&nbsp;10-Sep | Oracle style query optimization hints
 <img src=img/wal2json.png height=25 width=25> | wal2json | [eulerto/wal2json](https://github.com/eulerto/wal2json/tags)&nbsp;&nbsp;v2.6&nbsp;&nbsp;9-May | Change data capture
 <img src=img/pgcat.png height=25 width=25> | cat | [postgresml/pgcat](https://github.com/postgresml/pgcat/tags)&nbsp;&nbsp;v1.2.0&nbsp;&nbsp;12-Sep | Nextgen pooler & proxy
 <img src=img/backrest.png height=25 width=25> | backrest | [pgbackrest/pgbackrest](https://github.com/pgbackrest/pgbackrest/tags)&nbsp;&nbsp;v2.53.1&nbsp;&nbsp;12-Sep | Reliable backup & restore
