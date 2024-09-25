@@ -31,10 +31,5 @@ _ |Component|Github Project|Description
 <img src=img/debugger.png height=25 width=25> | pldebugger | [enterprisedb/pldebugger ](https://github.com/enterprisedb/pldebugger/tags)&nbsp;&nbsp;v1.5&nbsp;&nbsp;16-May | Stored procedure debugger
 <img src=img/cybertec.png height=25 width=25> | permissions | [cybertec/permissions](https://github.com/cybertec-postgresql/pg_permissions/tags)&nbsp;&nbsp;v1.3&nbsp;&nbsp;29-Jul | Improved permissions views
 <img src=img/setuser.png height=25 width=25> | setuser | [pgaudit/set_user](https://github.com/pgaudit/set_user/tags)&nbsp;&nbsp;v4.1.0&nbsp;&nbsp;12-Sep | Privilege escalation logging & control
-
-## Coming soon!!
-
-_ |Component|Github Project|Description
----|---|---|---|
 <img src=img/postgresml.png height=25 width=25> | postgresml | [postgresml/postgresml](https://github.com/postgresml/postgresml/tags)&nbsp;&nbsp;v2.9.3&nbsp;&nbsp; | GPU Powered Postgres AI
 <img src=img/multicorn.png height=25 width=25> | multicorn2 | [pgsql-io/multicorn2](https://github.com/pgsql-io/multicorn2/tags)&nbsp;&nbsp;v3.0&nbsp;&nbsp; | Extensions & FDW enabler for python3
