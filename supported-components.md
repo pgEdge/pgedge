@@ -33,3 +33,4 @@ _ |Component|Github Project|Description
 <img src=img/setuser.png height=25 width=25> | setuser | [pgaudit/set_user](https://github.com/pgaudit/set_user/tags)&nbsp;&nbsp;v4.1.0&nbsp;&nbsp;12-Sep | Privilege escalation logging & control
 <img src=img/postgresml.png height=25 width=25> | postgresml | [postgresml/postgresml](https://github.com/postgresml/postgresml/tags)&nbsp;&nbsp;v2.9.3&nbsp;&nbsp; | GPU Powered Postgres AI
 <img src=img/multicorn.png height=25 width=25> | multicorn2 | [pgsql-io/multicorn2](https://github.com/pgsql-io/multicorn2/tags)&nbsp;&nbsp;v3.0&nbsp;&nbsp; | Extensions & FDW enabler for python3
+<img src=img/mqttclient.png height=25 width=25> | mqttclient | [pgedge/mqttclient](https://github.com/pgedge/mqttclient/tags)&nbsp;&nbsp;v0.9&nbsp;&nbsp; | MQTT Client (using Multicorn)
