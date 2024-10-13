@@ -8,14 +8,16 @@ Try our free [Cloud Developer Edition](https://www.pgedge.com/get-started/cloud)
 
 
 ##  Getting started 
+Start by installling CLI on a single node (as per above) and then looking next at quick tutorial.
+
 <details>
 <summary>Node Pre-Reqs</summary>
 
 - Use a  non-root user from the command line
-- Tested with Python 3.9 & 3.10
+- Tested with Python 3.9 thru 3.12
   - Python 3.9 on EL8, EL9, SLE-15, & Amazon Linux 2023
   - Python 3.10 on Ubuntu 22.04
-  - *Experimental* on Python 3.11 on Debian 12
+  - Python 3.11 on Debian 12
   - *Experimental* on Python 3.12 on Ubuntu 24.04 & Fedora 40
 
 - optional: config [password-less sudo](http://lussier.io/index.php/2023/04/07/passwordless-sudo/) if you want to autostart components with systemctl
@@ -25,10 +27,8 @@ Try our free [Cloud Developer Edition](https://www.pgedge.com/get-started/cloud)
 ```
 python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.py)"
 ```
-Start by installling CLI on a single node (as per above) and then looking next at [below examples](#cli-examples).
 
 ## Try a **Cluster Tutorial** using [localhost](cli/tutorials/localhost-cluster.md) or [VM's](cli/tutorials/vm-cluster.md).
-
 
 ## Learn more about our Family of [Supported Components](supported-components.md)
 
