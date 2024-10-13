@@ -11,12 +11,12 @@ _ |Component|Github Project|Description
 ##  Featured Applications & Extensions
 _ |Component|Github Project|Description
 ---|---|---|---|
-<img src=img/kirk.png height=25 width=25> | kirk | [pgedge/cli/kirk](https://github.com/pgedge/cli/kirk)&nbsp;&nbsp;v24.11&nbsp;&nbsp; | MQTT Node Controller
-<img src=img/ace.png height=25 width=25> | ace | [pgedge/cli/ace](https://github.com/pgedge/cli/ace)&nbsp;&nbsp;v24.11&nbsp;&nbsp; | Anti-Chaos Engine
-<img src=img/postgresml.png height=25 width=25> | postgresml | [postgresml/postgresml](https://github.com/postgresml/postgresml/tags)&nbsp;&nbsp;v2.9.3&nbsp;&nbsp; | GPU Powered Postgres AI
 <img src=img/vector.png height=25 width=25> | vector | [pgvector/pgvector](https://github.com/pgvector/pgvector/tags)&nbsp;&nbsp;v0.7.4&nbsp;&nbsp;20-Aug | Nearest-neighbor similarity searching
 <img src=img/patroni.png height=25 width=25> | patroni | [pgedge/patroni](https://github.com/pgedge/pgedge-patroni/tags)&nbsp;&nbsp;v3.2.2.1 &nbsp;&nbsp;8-Feb | Zalando [Patroni](http:/github.com/zalando/patroni) + pgEdge Ultra HA
 <img src=img/backrest.png height=25 width=25> | backrest | [pgbackrest/pgbackrest](https://github.com/pgbackrest/pgbackrest/tags)&nbsp;&nbsp;v2.53.1&nbsp;&nbsp;12-Sep | Reliable backup & restore
+<img src=img/kirk.png height=25 width=25> | kirk | [pgedge/cli/kirk](https://github.com/pgedge/cli/kirk)&nbsp;&nbsp;v24.11&nbsp;&nbsp; *Coming 1-Nov*| MQTT Node Controller
+<img src=img/ace.png height=25 width=25> | ace | [pgedge/cli/ace](https://github.com/pgedge/cli/ace)&nbsp;&nbsp;v24.11&nbsp;&nbsp; *Coming 1-Nov* | Anti-Chaos Engine
+<img src=img/postgresml.png height=25 width=25> | postgresml | [pgedge/pgml](https://github.com/pgedge/pgml/tags)&nbsp;&nbsp;v2.9.3.1&nbsp;&nbsp; *Coming 1-Nov*| [Postgresml](https://github.com/postgresml/postgresml) for AI Inference at the Edge
 
 ## More Great hits
 _ |Component|Github Project|Description
