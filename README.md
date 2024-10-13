@@ -27,7 +27,7 @@ python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.p
 ```
 Start by installling CLI on a single node (as per above) and then looking next at [below examples](#cli-examples).
 
-## Or try our **Tutorials** using <img src=img/localhost.png width=25>&nbsp;[Localhost Clusters](cli/tutorials/localhost-cluster.md).
+## Try a **Cluster Tutorial** using [localhost](cli/tutorials/localhost-cluster.md) or [VM's](cli/tutorials/vm-cluster.md).
 
 
 ## Learn more about our Family of [Supported Components](supported-components.md)
