@@ -11,7 +11,8 @@ _ |Component|Github Project|Description
 ##  Featured Applications & Extensions
 _ |Component|Github Project|Description
 ---|---|---|---|
-<img src=img/kirk.png height=25 width=25> | kirk | [pgedge/cli](https://github.com/pgedge/cli/tags)&nbsp;&nbsp;v24.11&nbsp;&nbsp; | MQTT Client
+<img src=img/kirk.png height=25 width=25> | kirk | [pgedge/cli/kirk](https://github.com/pgedge/cli/kirk)&nbsp;&nbsp;v24.11&nbsp;&nbsp; | MQTT Node Controller
+<img src=img/ace.png height=25 width=25> | ace | [pgedge/cli/ace](https://github.com/pgedge/cli/ace)&nbsp;&nbsp;v24.11&nbsp;&nbsp; | Anti-Chaos Engine
 <img src=img/postgresml.png height=25 width=25> | postgresml | [postgresml/postgresml](https://github.com/postgresml/postgresml/tags)&nbsp;&nbsp;v2.9.3&nbsp;&nbsp; | GPU Powered Postgres AI
 <img src=img/vector.png height=25 width=25> | vector | [pgvector/pgvector](https://github.com/pgvector/pgvector/tags)&nbsp;&nbsp;v0.7.4&nbsp;&nbsp;20-Aug | Nearest-neighbor similarity searching
 <img src=img/patroni.png height=25 width=25> | patroni | [pgedge/patroni](https://github.com/pgedge/pgedge-patroni/tags)&nbsp;&nbsp;v3.2.2.1 &nbsp;&nbsp;8-Feb | Zalando [Patroni](http:/github.com/zalando/patroni) + pgEdge Ultra HA
@@ -24,7 +25,6 @@ _ |Component|Github Project|Description
 <img src=img/pgaudit.png height=25 width=25> | audit | [pgaudit/pgaudit](https://github.com/pgaudit/pgaudit/tags)&nbsp;&nbsp;v17.0&nbsp;&nbsp;12-Sep | Audit logging for compliance
 <img src=img/orafce.png height=25 width=25> | orafce | [orafce/orafce](https://github.com/orafce/orafce/tags)&nbsp;&nbsp;v4.10.3&nbsp;&nbsp;29-Jul | Oracle style built-in functions
 <img src=img/cron.png height=25 width=25> | cron | [citusdata/pg_cron](https://github.com/citusdata/pg_cron/tags)&nbsp;&nbsp;v1.6.4&nbsp;&nbsp;15-Aug | Run periodic SQL procedures & statements
-
 <img src=img/citus.png height=25 width=25> | citus  | [citusdata/citus](https://github.com/citusdata/citus/tags)&nbsp;&nbsp;v12.1.5&nbsp;&nbsp;29-Jul | Sharded and/or Columnar distributed tables
 <img src=img/v8.png height=25 width=25> | plv8 | [plv8/plv8](https://github.com/plv8/plv8/tags)&nbsp;&nbsp;v3.2.2&nbsp;&nbsp;16-May | Javascript procedural language using V8 engine
 <img src=img/partman.png height=25 width=25> | partman | [pgpartman/pg_partman](https://github.com/pgpartman/pg_partman/tags)&nbsp;&nbsp;v5.1.0&nbsp;&nbsp;2-Apr | Partition management
