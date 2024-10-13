@@ -30,14 +30,7 @@ Start by installling CLI on a single node (as per above) and then looking next a
 ## Or try our **Tutorials** using <img src=img/localhost.png width=25>&nbsp;[Localhost Clusters](cli/tutorials/localhost-cluster.md).
 
 
-## Learn more about our featured extensions
-##### <img src=img/spock.png height=30> **[spock](https://github.com/pgedge/spock)** - Multi-master w/ Conflict Resolution, Auto DDL and Delta Apply
-
-##### <img src=img/lola.png height=27> **[pgedge/lolor](https://github.com/pgedge/lolor)** - Large Object LOgical Replication
-
-##### <img src=img/snowflake.png height=30> **[snowflake](https://github.com/pgedge/snowflake)** - Distribued sequences as unique as snowflakes
-
-##### <img src=img/pg-community.png height=30> **[Supported Components](supported-components.md)** - All the best such as pg12-17, Postgis, pgVector, Citus... 
+## Learn more about our Family of [Supported Components](supported-components.md)
 
 ## Get a feel for our powerful CLI commands
 
