@@ -4,7 +4,7 @@
 Our Distributed Multi-master Postgres runs nicely (on most all flavors of Linux) in vm's, containers, bare metal, or a localhost sandbox.  
 
 You can join our [Discord Server](https://discord.com/invite/QaqHy52sUd) or learn more about [our sponsor](https://pgedge.com/company).
-Try our free [Cloud Developer Edition](https://www.pgedge.com/get-started/cloud) to setup a global managed cluster in less than 90 seconds.  Also check out our [Docker](https://github.com/pgEdge/pgedge-docker/blob/main/README.md) or [K8's Helm](https://github.com/pgEdge/pgedge-helm/blob/main/examples/README.md) examples.  
+Also check out our [Docker](https://github.com/pgEdge/pgedge-docker/blob/main/README.md) or [K8's Helm](https://github.com/pgEdge/pgedge-helm/blob/main/examples/README.md) examples.  
 
 
 ##  Getting started 
@@ -28,7 +28,7 @@ Start by installling CLI on a single node (as per above) and then looking next a
 python3 -c "$(curl -fsSL https://pgedge-upstream.s3.amazonaws.com/REPO/install.py)"
 ```
 
-## Try a cluster tutorial using [localhost](cli/tutorials/localhost-cluster.md) or [vm's](cli/tutorials/vm-cluster.md).
+## Try a cluster tutorial using [localhost](cli/tutorials/localhost-cluster.md) or [vm's](cli/tutorials/vm-cluster.md)
 
 ## Learn more about our family of [supported components](supported-components.md)
 
