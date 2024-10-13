@@ -8,7 +8,7 @@ Also check out our [Docker](https://github.com/pgEdge/pgedge-docker/blob/main/RE
 
 
 ##  Getting started 
-Start by installling CLI on a single node (as per above) and then looking next at quick tutorial.
+Start by installling CLI on a single node (per below) and then looking next at quick tutorial for setting up a test cluster
 
 <details>
 <summary>Node Pre-Reqs</summary>
