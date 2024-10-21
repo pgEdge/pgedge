@@ -14,24 +14,24 @@ _ |Component|Github Project|Description
 <img src=img/vector.png height=25 width=25> | vector | [pgvector/pgvector](https://github.com/pgvector/pgvector/tags)&nbsp;&nbsp;v0.7.4&nbsp;&nbsp;20-Aug | Nearest-neighbor similarity searching
 <img src=img/patroni.png height=25 width=25> | patroni | [pgedge/patroni](https://github.com/pgedge/pgedge-patroni/tags)&nbsp;&nbsp;v3.2.2.1 &nbsp;&nbsp;8-Feb | Zalando [Patroni](http:/github.com/zalando/patroni) + pgEdge Ultra HA
 <img src=img/backrest.png height=25 width=25> | backrest | [pgbackrest/pgbackrest](https://github.com/pgbackrest/pgbackrest/tags)&nbsp;&nbsp;v2.53.1&nbsp;&nbsp;12-Sep | Reliable backup & restore
-<img src=img/kirk.png height=25 width=25> | kirk | [pgedge/cli/kirk](https://github.com/pgedge/cli/kirk)&nbsp;&nbsp;v24.11&nbsp;&nbsp; *Coming 1-Nov*| MQTT Node Controller
-<img src=img/ace.png height=25 width=25> | ace | [pgedge/cli/ace](https://github.com/pgedge/cli/ace)&nbsp;&nbsp;v24.11&nbsp;&nbsp; *Coming 1-Nov* | Anti-Chaos Engine
+<img src=img/kirk.png height=25 width=25> | kirk | [pgedge/cli/kirk](https://github.com/pgedge/cli/kirk)&nbsp;&nbsp;v24.11&nbsp;&nbsp;21-Oct | MQTT Node Controller
+<img src=img/ace.png height=25 width=25> | ace | [pgedge/cli/ace](https://github.com/pgedge/cli/ace)&nbsp;&nbsp;v24.11&nbsp;&nbsp;21-Oct | Anti-Chaos Engine
 <img src=img/postgresml.png height=25 width=25> | postgresml | [pgedge/pgml](https://github.com/pgedge/pgml/tags)&nbsp;&nbsp;v2.9.3.1&nbsp;&nbsp; *Coming 1-Nov*| [Postgresml](https://github.com/postgresml/postgresml) for AI Inference at the Edge
 
 ## More Great hits
 _ |Component|Github Project|Description
 ---|---|---|---|
-<img src=img/postgis.png height=25 width=25> | postgis | [postgis/postgis](https://github.com/postgis/postgis/tags)&nbsp;&nbsp;v3.4.2&nbsp;&nbsp;8-Feb | Geospatial Extension
+<img src=img/postgis.png height=25 width=25> | postgis | [postgis/postgis](https://github.com/postgis/postgis/tags)&nbsp;&nbsp;v3.5.0&nbsp;&nbsp;21-Oct | Geospatial Extension
 <img src=img/pgaudit.png height=25 width=25> | audit | [pgaudit/pgaudit](https://github.com/pgaudit/pgaudit/tags)&nbsp;&nbsp;v17.0&nbsp;&nbsp;12-Sep | Audit logging for compliance
-<img src=img/orafce.png height=25 width=25> | orafce | [orafce/orafce](https://github.com/orafce/orafce/tags)&nbsp;&nbsp;v4.10.3&nbsp;&nbsp;29-Jul | Oracle style built-in functions
+<img src=img/orafce.png height=25 width=25> | orafce | [orafce/orafce](https://github.com/orafce/orafce/tags)&nbsp;&nbsp;v4.13.4&nbsp;&nbsp;21-Oct | Oracle style built-in functions
 <img src=img/cron.png height=25 width=25> | cron | [citusdata/pg_cron](https://github.com/citusdata/pg_cron/tags)&nbsp;&nbsp;v1.6.4&nbsp;&nbsp;15-Aug | Run periodic SQL procedures & statements
 <img src=img/citus.png height=25 width=25> | citus  | [citusdata/citus](https://github.com/citusdata/citus/tags)&nbsp;&nbsp;v12.1.5&nbsp;&nbsp;29-Jul | Sharded and/or Columnar distributed tables
-<img src=img/v8.png height=25 width=25> | plv8 | [plv8/plv8](https://github.com/plv8/plv8/tags)&nbsp;&nbsp;v3.2.2&nbsp;&nbsp;16-May | Javascript procedural language using V8 engine
+<img src=img/v8.png height=25 width=25> | plv8 | [plv8/plv8](https://github.com/plv8/plv8/tags)&nbsp;&nbsp;v3.2.3&nbsp;&nbsp;21-Oct | Javascript procedural language using V8 engine
 <img src=img/partman.png height=25 width=25> | partman | [pgpartman/pg_partman](https://github.com/pgpartman/pg_partman/tags)&nbsp;&nbsp;v5.1.0&nbsp;&nbsp;2-Apr | Partition management
 <img src=img/hintplan.png height=25 width=25> | hintplan | [osscdb/pg_hintplan](https://github.com/ossc-db/pg_hint_plan/tags)&nbsp;&nbsp;v1.7.0&nbsp;&nbsp;10-Sep | Oracle style query optimization hints
 <img src=img/wal2json.png height=25 width=25> | wal2json | [eulerto/wal2json](https://github.com/eulerto/wal2json/tags)&nbsp;&nbsp;v2.6&nbsp;&nbsp;9-May | Change data capture
 <img src=img/pgcat.png height=25 width=25> | cat | [postgresml/pgcat](https://github.com/postgresml/pgcat/tags)&nbsp;&nbsp;v1.2.0&nbsp;&nbsp;12-Sep | Nextgen pooler & proxy
-<img src=img/timescaledb.png height=25 width=25> | timescale | [timescaledb/timescale](https://github.com/timescale/timescaledb/tags)&nbsp;&nbsp;v2.16.1&nbsp;&nbsp;20-Aug | Time series data
+<img src=img/timescaledb.png height=25 width=25> | timescale | [timescaledb/timescale](https://github.com/timescale/timescaledb/tags)&nbsp;&nbsp;v2.17.0&nbsp;&nbsp;21-Oct | Time series data
 <img src=img/whatif.png height=25 width=25> | hypopg | [hypopg/hypopg](https://github.com/hypopg/hypopg/tags)&nbsp;&nbsp;v1.4.1&nbsp;&nbsp;9-May | Hypothetical index evaluation
 <img src=img/jan.png height=25 width=auto> | plprofiler | [bigsql/plrofiler](https://github.com/bigsql/plprofiler/tags)&nbsp;&nbsp;v4.2.5&nbsp;&nbsp;20-Aug | Stored procedure profiler 
 <img src=img/debugger.png height=25 width=25> | pldebugger | [enterprisedb/pldebugger ](https://github.com/enterprisedb/pldebugger/tags)&nbsp;&nbsp;v1.5&nbsp;&nbsp;16-May | Stored procedure debugger
