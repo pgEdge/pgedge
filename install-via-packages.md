@@ -1,4 +1,4 @@
-# pgEdge Package Downloads
+# pgEdge Package Downloads (BETA)
 Our enterprise-class packages run on all major Linux distro's including EL8+, Ubuntu 22.04+, and Debian 11+.  
 
 And yes... we also run on Amazon Linux 2023 & SLES 15
