@@ -16,7 +16,6 @@ _ |Component|Github Project|Description
 <img src=img/backrest.png height=25 width=25> | backrest | [pgbackrest/pgbackrest](https://github.com/pgbackrest/pgbackrest/tags)&nbsp;&nbsp;v2.53.1&nbsp;&nbsp;12-Sep | Reliable backup & restore
 <img src=img/kirk.png height=25 width=25> | kirk | [pgedge/cli/kirk](https://github.com/pgedge/cli/kirk)&nbsp;&nbsp;v24.11&nbsp;&nbsp;21-Oct | MQTT Node Controller
 <img src=img/ace.png height=25 width=25> | ace | [pgedge/cli/ace](https://github.com/pgedge/cli/ace)&nbsp;&nbsp;v24.11&nbsp;&nbsp;21-Oct | Anti-Chaos Engine
-<img src=img/postgresml.png height=25 width=25> | postgresml | [pgedge/pgml](https://github.com/pgedge/pgml/tags)&nbsp;&nbsp;v2.9.3.1&nbsp;&nbsp; *Coming 1-Nov*| [Postgresml](https://github.com/postgresml/postgresml) for AI Inference at the Edge
 
 ## More Great hits
 _ |Component|Github Project|Description
@@ -37,4 +36,3 @@ _ |Component|Github Project|Description
 <img src=img/debugger.png height=25 width=25> | pldebugger | [enterprisedb/pldebugger ](https://github.com/enterprisedb/pldebugger/tags)&nbsp;&nbsp;v1.5&nbsp;&nbsp;16-May | Stored procedure debugger
 <img src=img/cybertec.png height=25 width=25> | permissions | [cybertec/permissions](https://github.com/cybertec-postgresql/pg_permissions/tags)&nbsp;&nbsp;v1.3&nbsp;&nbsp;29-Jul | Improved permissions views
 <img src=img/setuser.png height=25 width=25> | setuser | [pgaudit/set_user](https://github.com/pgaudit/set_user/tags)&nbsp;&nbsp;v4.1.0&nbsp;&nbsp;12-Sep | Privilege escalation logging & control
-<img src=img/multicorn.png height=25 width=25> | multicorn2 | [pgsql-io/multicorn2](https://github.com/pgsql-io/multicorn2/tags)&nbsp;&nbsp;v3.0&nbsp;&nbsp; | Extensions & FDW enabler for python3
