@@ -1,5 +1,23 @@
 # pgEdge Changes Log
 
+## v24.10.7 (on 2024-11-25) to download - REL24_10
+  - CLI
+    - PG versions 17.2, 16.6, and 15.10
+  - Spock 4.0.6-1
+    - Sub Disable Exception Behaviour 
+
+
+## v24.10.2 (on 2024-10-02) to download - REL24_10
+  - CLI
+    - Continued standardization of input flags.
+    - Improvements to guardrails on cluster init and add node commands.
+    - Removes hard coded spock version in json-template.
+    - Support for PG17 extensions.
+  - Spock 4.0.5
+    - Fixed support for column filters.
+    - Fixes to auto ddl and exception logging.
+
+
 ## v24.08.8 (on 2024-08-28) to download - REL24_Q3
   - CLI
     - Ace fixes, including support for multiple databases and data types.
