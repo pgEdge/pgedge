@@ -2,7 +2,8 @@
 
 ## v24.10.7 (on 2024-11-25) to download - REL24_10
   - CLI
-    - PG versions 17.2, 16.6, and 15.10
+    - PostgreSQL versions 17.2, 16.6, and 15.10
+    - pgVector version 0.8.0
   - Spock 4.0.6-1
     - Sub Disable Exception Behaviour 
 
