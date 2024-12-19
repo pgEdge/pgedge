@@ -1,6 +1,8 @@
 # pgEdge Changes Log
 
 ## v24.10.9 (on 2024-12-06) to download - REL24_10
+  - Spock 4.0.8-1 (2024-12-19)
+    - Fixes for tts_isnull  
   - Spock 4.0.7-1
     - Fixes for exception logging
   - pgedge-24.10-8-amd.tgz
